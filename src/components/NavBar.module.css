@@ -12,6 +12,10 @@
   padding-right: 50px;
 }
 
+.li :hover {
+  color: red;
+}
+
 .link {
   text-decoration: none;
 }
