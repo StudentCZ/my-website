@@ -2,11 +2,16 @@
   background-color: lightgreen;
   text-align: right;
   margin-bottom: 20px;
+  width: 100%;
 }
 
-.links {
+.li {
   font-size: 30px;
   list-style: none;
   display: inline;
-  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.link {
+  text-decoration: none;
 }

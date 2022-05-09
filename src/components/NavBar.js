@@ -5,14 +5,20 @@ import style from './NavBar.module.css';
 const NavBar = () => {
   return (
     <div className={style.div}>
-      <li className={style.links}>
-        <Link to='/'>Home</Link>
+      <li className={style.li}>
+        <Link className={style.link} to='/'>
+          Home
+        </Link>
       </li>
-      <li className={style.links}>
-        <Link to='/project'>Project</Link>
+      <li className={style.li}>
+        <Link className={style.link} to='/project'>
+          Project
+        </Link>
       </li>
-      <li className={style.links}>
-        <Link to='/contact'>Contact</Link>
+      <li className={style.li}>
+        <Link className={style.link} to='/contact'>
+          Contact
+        </Link>
       </li>
     </div>
   );
