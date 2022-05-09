@@ -1,3 +1,6 @@
 .links {
+  font-size: 30px;
   list-style: none;
+  display: inline;
+  padding-left: 50px;
 }
