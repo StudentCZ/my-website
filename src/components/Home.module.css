@@ -24,8 +24,23 @@
 }
 
 .image2 {
-  margin-right: 10px;
-  margin-top: 20px;
+  background-image: url(https://cdn.myanimelist.net/images/characters/10/322962.jpg);
+  position: relative;
+  width: 200px;
+  height: 200px;
+  animation: image2 20s infinite;
+}
+
+@keyframes image2 {
+  0% {
+    left: 0px;
+  }
+  25% {
+    background-image: url(https://photo.cosplayfu.com/character/mini/68609_61262.jpg);
+  }
+  100% {
+    left: 950px;
+  }
 }
 
 .shine {
@@ -38,16 +53,16 @@
   background: linear-gradient(90deg, #90ee90, rgb(244, 15, 15), blue, #000);
   background-repeat: repeat;
   background-size: 75%;
-  animation: animate 20s infinite;
+  animation: shine 20s infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
-@keyframes animate {
+@keyframes shine {
   0% {
     background-position: 100%;
   }
   100% {
-    background-position: 500%;
+    background-position: 600%;
   }
 }
