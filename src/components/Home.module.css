@@ -28,7 +28,7 @@
   position: relative;
   width: 200px;
   height: 200px;
-  animation: image2 20s infinite;
+  animation: image2 20s infinite alternate;
 }
 
 @keyframes image2 {
