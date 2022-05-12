@@ -30,7 +30,7 @@
   position: relative;
   width: 250px;
   height: 250px;
-  animation: image2 5s infinite alternate;
+  animation: image2 10s infinite alternate;
 }
 
 @keyframes image2 {
@@ -48,6 +48,35 @@
   }
   100% {
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/814977b7-0338-49c7-a909-21bb485d1487/d2oi3gk-47661565-0078-4027-8483-d3521e8b5af3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgxNDk3N2I3LTAzMzgtNDljNy1hOTA5LTIxYmI0ODVkMTQ4N1wvZDJvaTNnay00NzY2MTU2NS0wMDc4LTQwMjctODQ4My1kMzUyMWU4YjVhZjMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qe1KhldHlbhDVFirQ4hnmAPHjw581BXYu38bh7d5KyA);
+    left: 900px;
+  }
+}
+
+.image3 {
+  background-image: url(https://i.pinimg.com/736x/03/b9/da/03b9da5d97d51b6fa783e3ed36467752.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  animation: image3 10s infinite alternate-reverse;
+}
+
+@keyframes image3 {
+  0% {
+    left: 0px;
+  }
+  25% {
+    background-image: url(https://w0.peakpx.com/wallpaper/164/521/HD-wallpaper-ulquiorra-bleach-4-espada-anime.jpg);
+  }
+  50% {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d0d53433-57b3-44b2-8599-66c3cf5937cf/d2pgdrt-f568ea24-b659-4607-8dca-fa29b2fc793f.jpg/v1/fill/w_900,h_507,q_75,strp/bleach_espada_3___halibel_by_impr3ssiv_d2pgdrt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvZDBkNTM0MzMtNTdiMy00NGIyLTg1OTktNjZjM2NmNTkzN2NmXC9kMnBnZHJ0LWY1NjhlYTI0LWI2NTktNDYwNy04ZGNhLWZhMjliMmZjNzkzZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.AfRjVUXjzp6eB1YXycWEAFOHeIQAoRgMSbEXBG91YyU);
+  }
+  75% {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d0d53433-57b3-44b2-8599-66c3cf5937cf/d2pgdon-0c4f0191-7dbd-4dca-9f6b-19f461ca8837.jpg/v1/fill/w_900,h_507,q_75,strp/bleach_espada_2_by_impr3ssiv_d2pgdon-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTA3IiwicGF0aCI6IlwvZlwvZDBkNTM0MzMtNTdiMy00NGIyLTg1OTktNjZjM2NmNTkzN2NmXC9kMnBnZG9uLTBjNGYwMTkxLTdkYmQtNGRjYS05ZjZiLTE5ZjQ2MWNhODgzNy5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.eT_Kk1GSduT86WutkWISXQ_0QbAySMaowemuUxqmUoc);
+  }
+  100% {
+    background-image: url(https://preview.redd.it/ilpxv119loe81.jpg?width=640&crop=smart&auto=webp&s=ff0032ac959888f6e4da39e18857f44c99d2a2b0);
     left: 900px;
   }
 }

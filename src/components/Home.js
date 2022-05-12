@@ -6,6 +6,7 @@ const Home = () => {
     <div className={style.background}>
       <div className={style.shine}>Welcome To My Site</div>
       <div className={style.image2}></div>
+      <div className={style.image3}></div>
     </div>
   );
 };
