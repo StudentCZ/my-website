@@ -25,10 +25,12 @@
 
 .image2 {
   background-image: url(https://cdn.myanimelist.net/images/characters/10/322962.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
-  width: 200px;
-  height: 200px;
-  animation: image2 20s infinite alternate;
+  width: 250px;
+  height: 250px;
+  animation: image2 5s infinite alternate;
 }
 
 @keyframes image2 {
@@ -36,10 +38,16 @@
     left: 0px;
   }
   25% {
-    background-image: url(https://photo.cosplayfu.com/character/mini/68609_61262.jpg);
+    background-image: url(https://s3.amazonaws.com/colorslive/jpg_512x512/126415-_Gxww5IPdq4pxwLB.jpg);
+  }
+  50% {
+    background-image: url(https://cdn.myanimelist.net/r/360x360/images/characters/12/85334.jpg?s=ed1ade94d6814b85ad1496f69638b727);
+  }
+  75% {
+    background-image: url(https://pm1.narvii.com/6039/eba829089fa751bffd4d857e7561b490498bc825_hq.jpg);
   }
   100% {
-    left: 950px;
+    left: 925px;
   }
 }
 
