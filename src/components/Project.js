@@ -7,11 +7,15 @@ const Project = () => {
     <div>
       <div className={style.text}>My Projects</div>
       <div>
-        <img
-          className={style.project_img}
-          src={P1}
-          alt='Shoulda Coulda Project'
-        />
+        <figure>
+          <img
+            className={style.project_img}
+            src={P1}
+            alt='Shoulda Coulda Project'
+          />
+
+          <figcaption className={style.figcaption}>Hello</figcaption>
+        </figure>
       </div>
     </div>
   );
