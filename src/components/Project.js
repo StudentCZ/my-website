@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Project.module.css';
 import P1 from '../assets/images/P1.png';
 import P2 from '../assets/images/P2.png';
+import Question from '../assets/images/Q.jpeg';
 
 const Project = () => {
   return (
@@ -54,7 +55,11 @@ const Project = () => {
       </div>
       <div>
         <figure className={style.figure}>
-          <img className={style.project_img} src={P1} alt='Place Holder' />
+          <img
+            className={style.project_img}
+            src={Question}
+            alt='Place Holder'
+          />
 
           <figcaption className={style.figcaption}>Place Holder</figcaption>
         </figure>
