@@ -46,6 +46,19 @@ const Project = () => {
           </figcaption>
         </figure>
       </div>
+      <div className={style.text}>
+        {/* <a href='#' target='_blank' rel='noreferrer'>
+          Place Holder Project
+        </a> */}
+        Place Holder
+      </div>
+      <div>
+        <figure className={style.figure}>
+          <img className={style.project_img} src={P1} alt='Place Holder' />
+
+          <figcaption className={style.figcaption}>Place Holder</figcaption>
+        </figure>
+      </div>
     </div>
   );
 };
