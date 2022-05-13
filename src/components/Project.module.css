@@ -1,3 +1,7 @@
+.project_div {
+  text-align: center;
+}
+
 .text {
   text-align: center;
   font-size: 30px;
@@ -7,11 +11,21 @@
 
 .project_img {
   width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 500px;
+  margin: auto;
 }
 
 .figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
   text-align: center;
 }
