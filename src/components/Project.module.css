@@ -1,4 +1,9 @@
 .text {
   text-align: center;
   font-size: 30px;
+  text-decoration: underline;
+}
+
+.project_img {
+  width: 200px;
 }
