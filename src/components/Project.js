@@ -7,6 +7,7 @@ const Project = () => {
     <div className={style.project_div}>
       <div className={style.text}>
         <a
+          className={style.link}
           href='https://shouldacoulda.herokuapp.com/'
           target='_blank'
           rel='noreferrer'

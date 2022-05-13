@@ -9,12 +9,16 @@
   margin-bottom: 20px;
 }
 
+.text :hover {
+  color: red;
+}
+
 .project_img {
   width: 500px;
 }
 
 .figure {
-  border: thin #c0c0c0 solid;
+  border: thin whitesmoke solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
@@ -26,6 +30,6 @@
   background-color: #222;
   color: #fff;
   font: italic medium sans-serif;
-  padding: 3px;
+  padding: 5px;
   text-align: center;
 }
