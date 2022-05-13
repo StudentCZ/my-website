@@ -16,6 +16,11 @@ const NavBar = () => {
         </Link>
       </li>
       <li className={style.li}>
+        <Link className={style.link} to='/about'>
+          About Me
+        </Link>
+      </li>
+      <li className={style.li}>
         <Link className={style.link} to='/contact'>
           Contact
         </Link>
