@@ -14,6 +14,8 @@ const About = () => {
           technologies.
         </p>
       </div>
+
+      <div className={style.test}>Hello</div>
     </div>
   );
 };

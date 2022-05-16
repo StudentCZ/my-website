@@ -13,3 +13,7 @@
 .p {
   margin-left: 210px;
 }
+
+.test {
+  clear: both;
+}
