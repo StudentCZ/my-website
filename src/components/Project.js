@@ -61,7 +61,9 @@ const Project = () => {
             alt='Place Holder'
           />
 
-          <figcaption className={style.figcaption}>Place Holder</figcaption>
+          <figcaption className={style.figcaption}>
+            Place Holder For Future Project
+          </figcaption>
         </figure>
       </div>
     </div>
