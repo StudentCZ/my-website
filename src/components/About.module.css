@@ -1,6 +1,15 @@
 .background {
 }
 
+.pic_div {
+  background-color: red;
+}
+
 .pic {
+  float: left;
   width: 200px;
+}
+
+.p {
+  margin-left: 210px;
 }
