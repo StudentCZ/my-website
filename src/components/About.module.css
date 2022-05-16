@@ -4,11 +4,13 @@
 .pic_div {
   border-radius: 5px;
   border-style: solid;
+  height: 268px;
 }
 
 .pic {
   float: left;
   width: 200px;
+  border-radius: 5px;
 }
 
 .p {
