@@ -2,7 +2,8 @@
 }
 
 .pic_div {
-  background-color: red;
+  border-radius: 5px;
+  border-style: solid;
 }
 
 .pic {
