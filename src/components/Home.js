@@ -5,8 +5,9 @@ import style from './Home.module.css';
 const Home = () => {
   return (
     <div className={style.background}>
-      <div>
+      <div className={style.imageTextDiv}>
         <img className={style.image} src={WorkPic} alt='myself' />
+        <div>Hello</div>
       </div>
     </div>
   );

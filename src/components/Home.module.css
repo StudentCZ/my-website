@@ -1,10 +1,10 @@
-.background {
-  background-color: #83cfde;
-  width: 100vw;
-  min-height: 100vh;
-}
-
 .image {
   width: 200px;
-  margin-top: 50px;
+  text-align: left;
+}
+
+.imageTextDiv {
+  margin-top: 100px;
+  border: solid 5px;
+  border-radius: 5px;
 }
