@@ -4,7 +4,7 @@ import style from './Home.module.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className={style.background}>
       <div>
         <img className={style.image} src={WorkPic} alt='myself' />
       </div>

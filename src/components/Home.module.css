@@ -1,3 +1,9 @@
+.background {
+  background-color: #83cfde;
+  width: 100vw;
+  min-height: 100vh;
+}
+
 .image {
   width: 200px;
 }
