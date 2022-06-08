@@ -10,6 +10,11 @@
   border: solid 5px;
   border-radius: 10px;
   height: 342px;
+  width: 260px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .imageText {
