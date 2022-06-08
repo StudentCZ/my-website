@@ -7,7 +7,7 @@ const Home = () => {
     <div className={style.background}>
       <div className={style.imageTextDiv}>
         <img className={style.image} src={WorkPic} alt='myself' />
-        <div>Hello</div>
+        <div className={style.imageText}>Hello</div>
       </div>
     </div>
   );
