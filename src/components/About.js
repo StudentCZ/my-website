@@ -4,6 +4,8 @@ import logo from '../assets/images/React.jpg';
 import logo2 from '../assets/images/redux.svg';
 import logo3 from '../assets/images/CSS.jpg';
 import logo4 from '../assets/images/JS.jpg';
+import logo5 from '../assets/images/Postgre.jpg';
+import logo6 from '../assets/images/Express.jpg';
 
 const About = () => {
   return (
@@ -14,6 +16,8 @@ const About = () => {
         <img src={logo2} width='100' alt='redux logo' />
         <img src={logo3} width='100' alt='CSS logo' />
         <img src={logo4} width='100' alt='Javascript logo' />
+        <img src={logo5} width='100' alt='PostgreSQL logo' />
+        <img src={logo6} width='100' alt='Express logo' />
       </div>
     </div>
   );
