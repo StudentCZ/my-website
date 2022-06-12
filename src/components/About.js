@@ -1,11 +1,14 @@
 import React from 'react';
 import style from './About.module.css';
+import logo from '../assets/images/React.jpg';
 
 const About = () => {
   return (
     <div className={style.background}>
       <h1 className={style.heading}>My Skills</h1>
-      <div>React</div>
+      <div>
+        <img src={logo} width='100' alt='react logo' />
+      </div>
     </div>
   );
 };
