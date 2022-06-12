@@ -2,6 +2,7 @@ import React from 'react';
 import style from './About.module.css';
 import logo from '../assets/images/React.jpg';
 import logo2 from '../assets/images/redux.svg';
+import logo3 from '../assets/images/CSS.jpg';
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
       <div>
         <img src={logo} width='100' alt='react logo' />
         <img src={logo2} width='100' alt='redux logo' />
+        <img src={logo3} width='100' alt='redux logo' />
       </div>
     </div>
   );
