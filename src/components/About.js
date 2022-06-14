@@ -21,6 +21,8 @@ const About = () => {
         <img src={logo6} width='100' alt='Express logo' />
         <img src={logo7} width='100' alt='HTML logo' />
       </div>
+      <br />
+      <h2>Javascript</h2>
     </div>
   );
 };
