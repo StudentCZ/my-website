@@ -24,7 +24,12 @@ const About = () => {
       <br />
       <h2>Javascript</h2>
       <div className='w3-light-grey'>
-        <div className='w3-container w3-green w3-center'>20%</div>
+        <div
+          className='w3-container w3-green w3-center'
+          style={{ width: '20%' }}
+        >
+          20%
+        </div>
       </div>
     </div>
   );
