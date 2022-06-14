@@ -8,6 +8,21 @@ import logo5 from '../assets/images/Postgre.jpg';
 import logo6 from '../assets/images/Express.jpg';
 import logo7 from '../assets/images/HTML.jpg';
 
+function move() {
+  var elem = document.getElementById('myBar');
+  var width = 50;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 80) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = width * 1 + '%';
+    }
+  }
+}
+
 const About = () => {
   return (
     <div className={style.background}>
@@ -25,12 +40,17 @@ const About = () => {
       <h2>Javascript</h2>
       <div className='w3-light-grey' style={{ width: '40%' }}>
         <div
+          id='myBar'
           className='w3-container w3-green w3-center'
           style={{ width: '20%' }}
         >
           20%
         </div>
       </div>
+      <br />
+      <button class='w3-button w3-green' onClick={() => move()}>
+        Click Me
+      </button>
     </div>
   );
 };
