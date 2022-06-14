@@ -23,6 +23,9 @@ const About = () => {
       </div>
       <br />
       <h2>Javascript</h2>
+      <div className='w3-light-grey'>
+        <div className='w3-container w3-green w3-center'>20%</div>
+      </div>
     </div>
   );
 };
