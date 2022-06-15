@@ -5,3 +5,7 @@
   text-decoration: underline;
   margin-top: 50px;
 }
+
+.cols {
+  column-count: 2;
+}

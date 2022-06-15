@@ -10,7 +10,7 @@ import logo7 from '../assets/images/HTML.jpg';
 
 function move() {
   var elem = document.getElementById('myBar');
-  var width = 50;
+  var width = 0;
   var id = setInterval(frame, 50);
   function frame() {
     if (width >= 80) {
@@ -37,20 +37,37 @@ const About = () => {
         <img src={logo7} width='100' alt='HTML logo' />
       </div>
       <br />
-      <h2>Javascript</h2>
-      <div className='w3-light-grey' style={{ width: '40%' }}>
-        <div
-          id='myBar'
-          className='w3-container w3-green w3-center'
-          style={{ width: '20%' }}
-        >
-          20%
+      <div className={style.cols}>
+        <h2>Javascript</h2>
+        <div className='w3-light-grey' style={{ width: '40%' }}>
+          <div
+            id='myBar'
+            className='w3-container w3-green w3-center'
+            style={{ width: '0%' }}
+          >
+            ?
+          </div>
         </div>
+        <br />
+        <button class='w3-button w3-green' onClick={() => move()}>
+          Click Me
+        </button>
+        <br />
+        <h2>React</h2>
+        <div className='w3-light-grey' style={{ width: '40%' }}>
+          <div
+            id='myBar'
+            className='w3-container w3-green w3-center'
+            style={{ width: '0%' }}
+          >
+            ?
+          </div>
+        </div>
+        <br />
+        <button class='w3-button w3-green' onClick={() => move()}>
+          Click Me
+        </button>
       </div>
-      <br />
-      <button class='w3-button w3-green' onClick={() => move()}>
-        Click Me
-      </button>
     </div>
   );
 };
