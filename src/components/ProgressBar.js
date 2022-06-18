@@ -53,7 +53,37 @@ export function move4() {
     } else {
       width++;
       elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
+      elem.innerHTML = `${width * 1}%`;
+    }
+  }
+}
+
+export function move5() {
+  var elem = document.getElementById('myBar5');
+  var width = 0;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 65) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = `${width * 1}%`;
+    }
+  }
+}
+
+export function move6() {
+  var elem = document.getElementById('myBar6');
+  var width = 0;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 65) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = `${width * 1}%`;
     }
   }
 }
