@@ -7,36 +7,7 @@ import logo4 from '../assets/images/JS.jpg';
 import logo5 from '../assets/images/Postgre.jpg';
 import logo6 from '../assets/images/Express.jpg';
 import logo7 from '../assets/images/HTML.jpg';
-
-function move() {
-  var elem = document.getElementById('myBar');
-  var width = 0;
-  var id = setInterval(frame, 50);
-  function frame() {
-    if (width >= 80) {
-      clearInterval(id);
-    } else {
-      width++;
-      elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
-    }
-  }
-}
-
-function move2() {
-  var elem = document.getElementById('myBar2');
-  var width = 0;
-  var id = setInterval(frame, 50);
-  function frame() {
-    if (width >= 75) {
-      clearInterval(id);
-    } else {
-      width++;
-      elem.style.width = width + '%';
-      elem.innerHTML = width * 1 + '%';
-    }
-  }
-}
+import { move, move2 } from './ProgressBar';
 
 const About = () => {
   return (
