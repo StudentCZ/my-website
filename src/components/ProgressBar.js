@@ -87,3 +87,18 @@ export function move6() {
     }
   }
 }
+
+export function move7() {
+  var elem = document.getElementById('myBar7');
+  var width = 0;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 65) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = `${width * 1}%`;
+    }
+  }
+}

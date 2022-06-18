@@ -7,13 +7,16 @@ import logo4 from '../assets/images/JS.jpg';
 import logo5 from '../assets/images/Postgre.jpg';
 import logo6 from '../assets/images/Express.jpg';
 import logo7 from '../assets/images/HTML.jpg';
-import { move, move2, move3, move4, move5, move6 } from './ProgressBar';
+import { move, move2, move3, move4, move5, move6, move7 } from './ProgressBar';
 
 // function allBars() {
 //   move();
 //   move2();
 //   move3();
 //   move4();
+//   move5();
+//   move6();
+//   move7();
 // }
 
 const About = () => {
@@ -73,6 +76,20 @@ const About = () => {
         </div>
         <br />
         <button className='w3-button w3-green' onClick={() => move5()}>
+          Click Me
+        </button>
+        <h2 className={style.text}>Express</h2>
+        <div className='w3-light-grey' style={{ width: '50%' }}>
+          <div
+            id='myBar7'
+            className='w3-container w3-green w3-center'
+            style={{ width: '0%' }}
+          >
+            ?
+          </div>
+        </div>
+        <br />
+        <button className='w3-button w3-green' onClick={() => move7()}>
           Click Me
         </button>
       </div>
