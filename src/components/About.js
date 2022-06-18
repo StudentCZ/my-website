@@ -23,6 +23,21 @@ function move() {
   }
 }
 
+function move2() {
+  var elem = document.getElementById('myBar2');
+  var width = 0;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 75) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = width * 1 + '%';
+    }
+  }
+}
+
 const About = () => {
   return (
     <div className={style.background}>
@@ -37,7 +52,7 @@ const About = () => {
         <img src={logo7} width='100' alt='HTML logo' />
       </div>
       <br />
-      <div className={style.cols}>
+      <div className={style.cols1}>
         <h2>Javascript</h2>
         <div className='w3-light-grey' style={{ width: '40%' }}>
           <div
@@ -56,7 +71,7 @@ const About = () => {
         <h2>React</h2>
         <div className='w3-light-grey' style={{ width: '40%' }}>
           <div
-            id='myBar'
+            id='myBar2'
             className='w3-container w3-green w3-center'
             style={{ width: '0%' }}
           >
@@ -64,7 +79,7 @@ const About = () => {
           </div>
         </div>
         <br />
-        <button class='w3-button w3-green' onClick={() => move()}>
+        <button class='w3-button w3-green' onClick={() => move2()}>
           Click Me
         </button>
       </div>

@@ -6,6 +6,10 @@
   margin-top: 50px;
 }
 
-.cols {
+.cols1 {
+  column-count: 2;
+}
+
+.cols2 {
   column-count: 2;
 }
