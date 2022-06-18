@@ -10,7 +10,7 @@ const Home = () => {
         <img className={style.image} src={WorkPic} alt='myself' />
         <div className={style.imageText}>Hello</div>
       </div>
-      <Project />
+      {/* <Project /> */}
     </div>
   );
 };
