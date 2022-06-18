@@ -35,10 +35,12 @@ const About = () => {
           </div>
         </div>
         <br />
-        <button class='w3-button w3-green' onClick={() => move()}>
+        <button className='w3-button w3-green' onClick={() => move()}>
           Click Me
         </button>
-        <br />
+      </div>
+
+      <div className={style.cols2}>
         <h2>React</h2>
         <div className='w3-light-grey' style={{ width: '40%' }}>
           <div
@@ -50,7 +52,7 @@ const About = () => {
           </div>
         </div>
         <br />
-        <button class='w3-button w3-green' onClick={() => move2()}>
+        <button className='w3-button w3-green' onClick={() => move2()}>
           Click Me
         </button>
       </div>
