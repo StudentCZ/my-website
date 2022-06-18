@@ -39,7 +39,7 @@ const About = () => {
           Click Me
         </button>
         <br />
-        <h2>HTML</h2>
+        <h2 className={style.text}>HTML</h2>
         <div className='w3-light-grey' style={{ width: '50%' }}>
           <div
             id='myBar3'
