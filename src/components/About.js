@@ -70,6 +70,20 @@ const About = () => {
         <button className='w3-button w3-green' onClick={() => move2()}>
           Click Me
         </button>
+        <h2 className={style.text}>CSS</h2>
+        <div className='w3-light-grey' style={{ width: '50%' }}>
+          <div
+            id='myBar2'
+            className='w3-container w3-green w3-center'
+            style={{ width: '0%' }}
+          >
+            ?
+          </div>
+        </div>
+        <br />
+        <button className='w3-button w3-green' onClick={() => move2()}>
+          Click Me
+        </button>
       </div>
     </div>
   );
