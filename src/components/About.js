@@ -7,7 +7,7 @@ import logo4 from '../assets/images/JS.jpg';
 import logo5 from '../assets/images/Postgre.jpg';
 import logo6 from '../assets/images/Express.jpg';
 import logo7 from '../assets/images/HTML.jpg';
-import { move, move2 } from './ProgressBar';
+import { move, move2, move3 } from './ProgressBar';
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
       <br />
       <div className={style.cols1}>
         <h2>Javascript</h2>
-        <div className='w3-light-grey' style={{ width: '40%' }}>
+        <div className='w3-light-grey' style={{ width: '50%' }}>
           <div
             id='myBar'
             className='w3-container w3-green w3-center'
@@ -38,11 +38,26 @@ const About = () => {
         <button className='w3-button w3-green' onClick={() => move()}>
           Click Me
         </button>
+        <br />
+        <h2>HTML</h2>
+        <div className='w3-light-grey' style={{ width: '50%' }}>
+          <div
+            id='myBar3'
+            className='w3-container w3-green w3-center'
+            style={{ width: '0%' }}
+          >
+            ?
+          </div>
+        </div>
+        <br />
+        <button className='w3-button w3-green' onClick={() => move3()}>
+          Click Me
+        </button>
       </div>
 
       <div className={style.cols2}>
         <h2>React</h2>
-        <div className='w3-light-grey' style={{ width: '40%' }}>
+        <div className='w3-light-grey' style={{ width: '50%' }}>
           <div
             id='myBar2'
             className='w3-container w3-green w3-center'
