@@ -27,3 +27,18 @@ export function move2() {
     }
   }
 }
+
+export function move3() {
+  let elem = document.getElemenyById('myBar3');
+  let width = 0;
+  let id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 70) {
+      clearInterval(id);
+    } else {
+      width++;
+      elem.style.width = width + '%';
+      elem.innerHTML = width * 1 + '%';
+    }
+  }
+}
