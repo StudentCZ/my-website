@@ -33,7 +33,7 @@ export function move3() {
   var width = 0;
   var id = setInterval(frame, 50);
   function frame() {
-    if (width >= 75) {
+    if (width >= 70) {
       clearInterval(id);
     } else {
       width++;
