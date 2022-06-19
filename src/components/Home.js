@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkPic from '../assets/images/Workpic1.jpg';
 import style from './Home.module.css';
-import Project from './Project';
+// import Project from './Project';
 
 const Home = () => {
   return (
