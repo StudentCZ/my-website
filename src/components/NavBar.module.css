@@ -1,9 +1,8 @@
 body {
-  background-color: #83cfde;
 }
 
 .div {
-  background-color: #dcae96;
+  background-color: black;
   text-align: right;
   width: 100%;
   overflow: hidden;
@@ -16,7 +15,7 @@ body {
   list-style: none;
   display: inline;
   padding-right: 50px;
-  color: #008000;
+  color: white;
 }
 
 .li :hover {
