@@ -34,109 +34,111 @@ const About = () => {
         <img src={logo6} width='100' alt='Express logo' />
       </div>
       <br />
-      <div className={style.cols1}>
-        <h2>Javascript</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+      <div className={style.container}>
+        <div className={style.cols1}>
+          <h2>Javascript</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
-        </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move()}>
-          Click Me
-        </button>
+          <br />
+          <button className='w3-button w3-green' onClick={() => move()}>
+            Click Me
+          </button>
 
-        <h2 className={style.text}>HTML</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar3'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+          <h2 className={style.text}>HTML</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar3'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
-        </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move3()}>
-          Click Me
-        </button>
-        <h2 className={style.text}>Redux</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar5'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+          <br />
+          <button className='w3-button w3-green' onClick={() => move3()}>
+            Click Me
+          </button>
+          <h2 className={style.text}>Redux</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar5'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
-        </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move5()}>
-          Click Me
-        </button>
-        <h2 className={style.text}>Express</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar7'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+          <br />
+          <button className='w3-button w3-green' onClick={() => move5()}>
+            Click Me
+          </button>
+          <h2 className={style.text}>Express</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar7'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
+          <br />
+          <button className='w3-button w3-green' onClick={() => move7()}>
+            Click Me
+          </button>
         </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move7()}>
-          Click Me
-        </button>
-      </div>
 
-      <div className={style.cols2}>
-        <h2>React</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar2'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+        <div className={style.cols2}>
+          <h2>React</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar2'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
-        </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move2()}>
-          Click Me
-        </button>
-        <h2 className={style.text}>CSS</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar4'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+          <br />
+          <button className='w3-button w3-green' onClick={() => move2()}>
+            Click Me
+          </button>
+          <h2 className={style.text}>CSS</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar4'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
-        </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move4()}>
-          Click Me
-        </button>
-        <h2 className={style.text}>PostgreSQL</h2>
-        <div className='w3-light-grey' style={{ width: '50%' }}>
-          <div
-            id='myBar6'
-            className='w3-container w3-green w3-center'
-            style={{ width: '0%' }}
-          >
-            ?
+          <br />
+          <button className='w3-button w3-green' onClick={() => move4()}>
+            Click Me
+          </button>
+          <h2 className={style.text}>PostgreSQL</h2>
+          <div className='w3-light-grey' style={{ width: '50%' }}>
+            <div
+              id='myBar6'
+              className='w3-container w3-green w3-center'
+              style={{ width: '0%' }}
+            >
+              ?
+            </div>
           </div>
+          <br />
+          <button className='w3-button w3-green' onClick={() => move6()}>
+            Click Me
+          </button>
         </div>
-        <br />
-        <button className='w3-button w3-green' onClick={() => move6()}>
-          Click Me
-        </button>
       </div>
     </div>
   );
