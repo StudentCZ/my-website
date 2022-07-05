@@ -8,20 +8,18 @@
 }
 
 .container {
-  text-align: center;
+  padding-left: 250px;
 }
 .cols1 {
   float: left;
-  width: 500px;
-  align-items: center;
-  padding-left: 250px;
+  width: 400px;
+  text-align: left;
 }
 
 .cols2 {
   float: left;
-  width: 500px;
-  padding-left: 100px;
-  align-items: center;
+  width: 400px;
+  text-align: left;
 }
 
 .text {
