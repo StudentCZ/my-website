@@ -2,7 +2,11 @@ import React from 'react';
 import Photo from './Photo';
 
 const Home = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Photo />
+    </div>
+  );
 };
 
 export default Home;
