@@ -7,22 +7,22 @@ const NavBar = () => {
     <div className={style.div}>
       <li className={style.li}>
         <Link className={style.link} to='/'>
-          Home
+          ABOUT
         </Link>
       </li>
       <li className={style.li}>
         <Link className={style.link} to='/project'>
-          Project
+          PROJECT
         </Link>
       </li>
       <li className={style.li}>
         <Link className={style.link} to='/about'>
-          About Me
+          WRITING
         </Link>
       </li>
       <li className={style.li}>
         <Link className={style.link} to='/contact'>
-          Contact
+          CONTACT
         </Link>
       </li>
     </div>
