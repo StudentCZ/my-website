@@ -47,7 +47,7 @@ const Project = () => {
           />
         </div>
       </div>
-      <div className={style.skillBar}></div>
+      <div className={style.skillBar}>Hello</div>
       <div className={style.text}>
         <a
           href='https://shouldacoulda.herokuapp.com/'
