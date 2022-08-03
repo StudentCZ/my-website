@@ -32,3 +32,11 @@
   width: 500px;
   height: 400px;
 }
+
+.header {
+  position: absolute;
+  left: 25px;
+  background-color: white;
+  color: #666;
+  padding: 0 5px;
+}
