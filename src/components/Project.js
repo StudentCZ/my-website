@@ -7,6 +7,9 @@ import Question from '../assets/images/Q.jpeg';
 const Project = () => {
   return (
     <div className={style.project_div}>
+      <div>
+        <h1>MY SKILLS AND PROJECT</h1>
+      </div>
       <div className={style.text}>
         <a
           href='https://shouldacoulda.herokuapp.com/'
