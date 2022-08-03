@@ -17,7 +17,7 @@ const Project = () => {
     <div className={style.project_div}>
       <div>
         <h1>MY SKILLS AND PROJECT</h1>
-        <div>
+        <div className={style.logoBar}>
           <img src={logo} width='100' alt='react logo' />
           <img src={logo2} width='100' alt='redux logo' />
           <img src={logo3} width='100' alt='CSS logo' />
