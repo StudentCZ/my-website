@@ -10,7 +10,7 @@ const Photo = () => {
           <img className={style.image} src={WorkPic} alt='myself' />
         </div>
         <div className={style.col2}>
-          <h1 className={style.text}>Hello</h1>
+          <div className={style.textBox}></div>
         </div>
       </div>
     </div>
