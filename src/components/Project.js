@@ -18,15 +18,36 @@ const Project = () => {
       <div>
         <h1>MY SKILLS AND PROJECT</h1>
         <div className={style.logoBar}>
-          <img src={logo} width='100' alt='react logo' />
-          <img src={logo2} width='100' alt='redux logo' />
-          <img src={logo3} width='100' alt='CSS logo' />
-          <img src={logo4} width='100' alt='Javascript logo' />
-          <img src={logo5} width='100' alt='PostgreSQL logo' />
-          <img src={logo7} width='100' alt='HTML logo' />
-          <img src={logo6} width='100' alt='Express logo' />
+          <img src={logo} width='100' alt='react logo' className={style.logo} />
+          <img
+            src={logo2}
+            width='100'
+            alt='redux logo'
+            className={style.logo}
+          />
+          <img src={logo3} width='100' alt='CSS logo' className={style.logo} />
+          <img
+            src={logo4}
+            width='100'
+            alt='Javascript logo'
+            className={style.logo}
+          />
+          <img
+            src={logo5}
+            width='100'
+            alt='PostgreSQL logo'
+            className={style.logo}
+          />
+          <img src={logo7} width='100' alt='HTML logo' className={style.logo} />
+          <img
+            src={logo6}
+            width='100'
+            alt='Express logo'
+            className={style.logo}
+          />
         </div>
       </div>
+      <div className={style.skillBar}></div>
       <div className={style.text}>
         <a
           href='https://shouldacoulda.herokuapp.com/'
