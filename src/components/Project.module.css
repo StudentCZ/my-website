@@ -66,3 +66,13 @@
 .skillContainer {
   columns: 2;
 }
+
+.skillCol1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skillCol2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

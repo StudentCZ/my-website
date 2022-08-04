@@ -50,7 +50,7 @@ const Project = () => {
       <div className={style.skillBar}>
         <div className={style.skillContainer}>
           <div className={style.skillCol1}>o</div>
-          <div lassName={style.skillCol1}>o</div>
+          <div className={style.skillCol2}>o</div>
         </div>
       </div>
       <div className={style.text}>
