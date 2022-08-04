@@ -62,3 +62,7 @@
   border-radius: 25px;
   border-bottom: 6px solid black;
 }
+
+.skillContainer {
+  columns: 2;
+}
