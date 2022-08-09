@@ -10,7 +10,6 @@ import logo4 from '../assets/images/JS.jpg';
 import logo5 from '../assets/images/Postgre.jpg';
 import logo6 from '../assets/images/Express.jpg';
 import logo7 from '../assets/images/HTML.jpg';
-import { move, move2, move3, move4, move5, move6, move7 } from './ProgressBar';
 
 const Project = () => {
   return (
@@ -49,8 +48,23 @@ const Project = () => {
       </div>
       <div className={style.skillBar}>
         <div className={style.skillContainer}>
-          <div className={style.skillCol1}>o</div>
-          <div className={style.skillCol2}>o</div>
+          <div className={style.skillCol1}>
+            <div>
+              <h2>Javascript</h2>
+              <div className='w3-light-grey w3-round'>
+                <div
+                  className='w3-container w3-round w3-blue'
+                  style={{ width: '25' }}
+                >
+                  25%
+                </div>
+              </div>
+              <h2>HTML</h2>
+            </div>
+          </div>
+          <div className={style.skillCol2}>
+            <h2>React</h2>
+          </div>
         </div>
       </div>
       <div className={style.text}>
