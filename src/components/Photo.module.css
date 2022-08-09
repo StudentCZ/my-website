@@ -26,6 +26,8 @@
 }
 
 .textBox {
+  display: block;
+  position: relative;
   border-radius: 25px;
   border: 2px solid white;
   padding: 20px;
@@ -38,5 +40,5 @@
   left: 25px;
   background-color: white;
   color: #666;
-  padding: 0 5px;
+  top: -10px;
 }
