@@ -53,26 +53,3 @@
 .logo {
   padding-right: 20px;
 }
-
-.skillBar {
-  width: 900px;
-  border: 2px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 25px;
-  border-bottom: 6px solid black;
-}
-
-.skillContainer {
-  column-count: 2;
-}
-
-.skillCol1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.skillCol2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
