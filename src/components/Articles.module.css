@@ -2,9 +2,17 @@
   background-color: #3b3b36;
 }
 
+.container {
+  display: flex;
+}
+
 .title {
   padding: 50px;
   font-family: 'Bungee Shade', cursive;
   font-size: 50px;
   color: lightgreen;
+}
+
+.text2 {
+  float: right;
 }
