@@ -1,8 +1,10 @@
 import React from 'react';
+import Article from './Articles';
 import Photo from './Photo';
 import Project from './Project';
 import ProjectImageBar from './ProjectImageBar';
 import ProjectSkillBar from './ProjectSkillBar';
+import Articles from './Articles';
 
 const Home = () => {
   return (
@@ -11,6 +13,7 @@ const Home = () => {
       <Project />
       <ProjectSkillBar />
       <ProjectImageBar />
+      <Articles />
     </div>
   );
 };
