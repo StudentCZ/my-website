@@ -11,9 +11,7 @@ const Photo = () => {
         </div>
         <div className={style.col2}>
           <div className={style.textBox}>
-            <label className={style.header}>
-              <span>HI, I'M CHAO</span>
-            </label>
+            <span className={style.text}>HI, I'M CHAO</span>
           </div>
         </div>
       </div>
