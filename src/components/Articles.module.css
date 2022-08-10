@@ -1,0 +1,10 @@
+.background {
+  background-color: #3b3b36;
+}
+
+.title {
+  padding: 50px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 50px;
+  color: lightgreen;
+}
