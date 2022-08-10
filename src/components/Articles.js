@@ -8,6 +8,7 @@ const Articles = () => {
         <div className={style.title}>LATEST ARTICLES</div>
         <div className={style.text2}>All Articles</div>
       </div>
+      <div>Hello</div>
     </div>
   );
 };

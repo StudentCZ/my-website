@@ -14,5 +14,8 @@
 }
 
 .text2 {
-  float: right;
+  font-size: 30px;
+  padding-top: 80px;
+  color: lightgreen;
+  padding-left: 200px;
 }
