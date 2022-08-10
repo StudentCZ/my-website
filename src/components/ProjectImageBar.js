@@ -4,7 +4,7 @@ import style from './ProjectImageBar.module.css';
 const ProjectImageBar = () => {
   return (
     <div className={style.container}>
-      <div>Hello</div>
+      <div></div>
     </div>
   );
 };
