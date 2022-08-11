@@ -22,4 +22,7 @@
 
 .text2 {
   border: 2px solid lightgreen;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
