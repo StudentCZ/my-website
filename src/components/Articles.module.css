@@ -13,9 +13,13 @@
   color: lightgreen;
 }
 
-.text2 {
+.textBox2 {
   font-size: 30px;
-  padding-top: 80px;
+  padding-top: 70px;
   color: lightgreen;
-  padding-left: 200px;
+  padding-left: 150px;
+}
+
+.text2 {
+  border: 2px solid lightgreen;
 }
