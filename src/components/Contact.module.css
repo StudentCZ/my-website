@@ -1,6 +1,6 @@
 .contact {
   margin-top: 100px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .contactBox {
@@ -27,4 +27,8 @@
   background-color: white;
   font-family: 'Bungee Shade', cursive;
   font-size: 3em;
+}
+
+.text {
+  text-decoration: none;
 }
