@@ -34,11 +34,17 @@ const Contact = () => {
               alt='gitHub'
             />
           </a>
-          <img
-            className={style.images}
-            src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png'
-            alt='Medium'
-          />
+          <a
+            href='https://medium.com/@Chao.Zhou'
+            rel='noreferrer'
+            target='_blank'
+          >
+            <img
+              className={style.images}
+              src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png'
+              alt='Medium'
+            />
+          </a>
         </div>
       </div>
     </div>
