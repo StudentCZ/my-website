@@ -18,7 +18,7 @@ const Articles = () => {
           </h2>
         </div>
       </div>
-      <div>Hello</div>
+      <div className={style.borderBox}></div>
     </div>
   );
 };
