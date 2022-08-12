@@ -20,7 +20,11 @@ const Articles = () => {
       </div>
       <div className={style.borderBox}>
         <h2 className={style.borderBoxHeader}>TITLE</h2>
-        <p className={style.borderBoxText}> Hello Random Text </p>
+        <p className={style.borderBoxText}>
+          Hello Random Text Hello Random TextHello Random Text Hello Random Text
+          Hello Random TextHello Random TextHello Random Text Hello Random
+          TextHello Random Text
+        </p>
       </div>
       <div className={style.borderBox}>
         <h2 className={style.borderBoxHeader}>TITLE</h2>
