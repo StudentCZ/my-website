@@ -45,4 +45,6 @@ a {
 .borderBoxHeader {
   padding-left: 30px;
   padding-top: 10px;
+  font-family: 'Bungee Shade', cursive;
+  color: lightgreen;
 }
