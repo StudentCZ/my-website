@@ -23,11 +23,17 @@ const Contact = () => {
               alt='linkedIn'
             />
           </a>
-          <img
-            className={style.images}
-            src='https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png'
-            alt='gitHub'
-          />
+          <a
+            href='https://github.com/StudentCZ'
+            rel='noreferrer'
+            target='_blank'
+          >
+            <img
+              className={style.images}
+              src='https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png'
+              alt='gitHub'
+            />
+          </a>
           <img
             className={style.images}
             src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png'
