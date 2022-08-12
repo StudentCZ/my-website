@@ -17,6 +17,16 @@ const Contact = () => {
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png'
             alt='linkedIn'
           />
+          <img
+            className={style.images}
+            src='https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png'
+            alt='gitHub'
+          />
+          <img
+            className={style.images}
+            src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png'
+            alt='Medium'
+          />
         </div>
       </div>
     </div>

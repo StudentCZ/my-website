@@ -40,5 +40,7 @@
 }
 
 .images {
-  width: 10vw;
+  width: 10rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
