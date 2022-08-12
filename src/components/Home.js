@@ -1,5 +1,4 @@
 import React from 'react';
-import Article from './Articles';
 import Photo from './Photo';
 import Project from './Project';
 import ProjectImageBar from './ProjectImageBar';

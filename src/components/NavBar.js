@@ -12,7 +12,7 @@ const NavBar = () => {
       </li>
       <li className={style.li}>
         <Link className={style.link} to='/project'>
-          PROJECT
+          PROJECTS
         </Link>
       </li>
       <li className={style.li}>
