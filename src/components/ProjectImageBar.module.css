@@ -6,6 +6,14 @@
   margin-bottom: 100px;
 }
 
+.projectOneImage {
+  border: 2px solid black;
+}
+
+.projectOneText {
+  border: 2px solid black;
+}
+
 .containerTwo {
   display: flex;
   flex-direction: row;

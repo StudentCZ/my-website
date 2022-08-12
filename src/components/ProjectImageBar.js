@@ -5,8 +5,8 @@ const ProjectImageBar = () => {
   return (
     <>
       <div className={style.containerOne}>
-        <div>Hello</div>
-        <div>Hello</div>
+        <div className={style.projectOneImage}>Hello</div>
+        <div className={style.projectOneText}>Hello</div>
       </div>
       <div className={style.containerTwo}>
         <div>Hello</div>
