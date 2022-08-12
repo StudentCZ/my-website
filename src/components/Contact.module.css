@@ -1,4 +1,13 @@
 .contact {
-  margin-top: 50px;
+  margin-top: 100px;
   text-decoration: underline;
+}
+
+.contactBox {
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
 }
