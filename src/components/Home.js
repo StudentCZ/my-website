@@ -4,6 +4,7 @@ import Project from './Project';
 import ProjectImageBar from './ProjectImageBar';
 import ProjectSkillBar from './ProjectSkillBar';
 import Articles from './Articles';
+import Contact from './Contact';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <ProjectSkillBar />
       <ProjectImageBar />
       <Articles />
+      <Contact />
     </div>
   );
 };
