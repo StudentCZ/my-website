@@ -19,6 +19,8 @@ const Articles = () => {
         </div>
       </div>
       <div className={style.borderBox}></div>
+      <div className={style.borderBox}></div>
+      <div className={style.borderBox}></div>
     </div>
   );
 };

@@ -34,8 +34,9 @@ a {
 .borderBox {
   width: 80vw;
   border: 2px solid white;
-  height: 20vh;
+  height: 25vh;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
+  margin-bottom: 50px;
 }
