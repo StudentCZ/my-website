@@ -5,6 +5,7 @@
 
 .contactBox {
   border: 2px solid black;
+  border-bottom: 6px solid black;
   border-radius: 25px;
   width: 85vw;
   margin-left: auto;
