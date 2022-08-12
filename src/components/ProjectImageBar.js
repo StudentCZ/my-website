@@ -3,8 +3,9 @@ import style from './ProjectImageBar.module.css';
 
 const ProjectImageBar = () => {
   return (
-    <div className={style.container}>
-      <div></div>
+    <div className={style.containerOne}>
+      <div>Hello</div>
+      <div>Hello</div>
     </div>
   );
 };

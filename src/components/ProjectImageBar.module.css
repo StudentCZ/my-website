@@ -1,4 +1,7 @@
-.container {
+.containerOne {
+  display: flex;
+  flex-direction: row;
   background-color: red;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
