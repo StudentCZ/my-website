@@ -48,3 +48,8 @@ a {
   font-family: 'Bungee Shade', cursive;
   color: lightgreen;
 }
+
+.borderBoxText {
+  padding-left: 30px;
+  color: white;
+}
