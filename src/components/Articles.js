@@ -18,9 +18,16 @@ const Articles = () => {
           </h2>
         </div>
       </div>
-      <div className={style.borderBox}></div>
-      <div className={style.borderBox}></div>
-      <div className={style.borderBox}></div>
+      <div className={style.borderBox}>
+        <h2 className={style.borderBoxHeader}>TITLE</h2>
+      </div>
+      <div className={style.borderBox}>
+        <h2 className={style.borderBoxHeader}>TITLE</h2>
+      </div>
+
+      <div className={style.borderBox}>
+        <h2 className={style.borderBoxHeader}>TITLE</h2>
+      </div>
     </div>
   );
 };
