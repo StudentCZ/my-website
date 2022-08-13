@@ -2,7 +2,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  text-align: center;
 }
 
 .text {
@@ -59,4 +58,5 @@
   margin-bottom: 50px;
   font-family: 'Bungee Shade', cursive;
   font-size: 50px;
+  padding-left: 125px;
 }
