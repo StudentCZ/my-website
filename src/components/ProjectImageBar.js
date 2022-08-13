@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './ProjectImageBar.module.css';
-import image from './../assets/images/P1.png';
+import image1 from './../assets/images/P1.png';
+import image2 from './../assets/images/P2.png';
 
 const ProjectImageBar = () => {
   return (
     <>
       <div className={style.containerOne}>
-        <img src={image} alt='Project1' className={style.projectOneImage} />
+        <img src={image1} alt='Project1' className={style.projectOneImage} />
 
         <div className={style.projectOneText}>
           <span className={style.header1}>SHOULDA COULDA</span>
@@ -17,7 +18,7 @@ const ProjectImageBar = () => {
         </div>
       </div>
       <div className={style.containerTwo}>
-        <div>Hello</div>
+        <img src={image2} alt='Project2' className={style.projectTwoImage} />
         <div>Hello</div>
       </div>
     </>
