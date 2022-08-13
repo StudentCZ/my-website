@@ -8,8 +8,8 @@ const Photo = () => {
       <div className={style.container}>
         <img className={style.image} src={WorkPic} alt='myself' />
         <div className={style.textBox}>
-          <span className={style.text}>HI, I'M CHAO</span>
-          <p>Hello</p>
+          <span className={style.header}>HI, I'M CHAO</span>
+          <p className={style.text}>Hello</p>
         </div>
       </div>
     </div>

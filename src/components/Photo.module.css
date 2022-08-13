@@ -21,14 +21,13 @@
   position: relative;
   border-radius: 25px;
   border: 2px solid white;
-
   margin-top: 150px;
   margin-right: 100px;
   margin-bottom: 100px;
   width: 50%;
 }
 
-.text {
+.header {
   position: absolute;
   left: 25px;
   background-color: #3b3b36;
