@@ -7,11 +7,9 @@ const Photo = () => {
     <div className={style.background}>
       <div className={style.container}>
         <img className={style.image} src={WorkPic} alt='myself' />
-        <div className={style.col2}>
-          <div className={style.textBox}>
-            <span className={style.text}>HI, I'M CHAO</span>
-            <p>Hello</p>
-          </div>
+        <div className={style.textBox}>
+          <span className={style.text}>HI, I'M CHAO</span>
+          <p>Hello</p>
         </div>
       </div>
     </div>
