@@ -6,7 +6,7 @@
   margin-bottom: 40px;
 }
 
-.projectOneImage {
+.projectImage {
   border: 2px solid black;
   margin-left: 110px;
   width: 25vw;
@@ -16,7 +16,7 @@
   border-bottom: 6px solid black;
 }
 
-.projectOneText {
+.projectText {
   position: relative;
   border: 2px solid black;
   margin-left: 50px;
@@ -45,14 +45,4 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 100px;
-}
-
-.projectTwoImage {
-  border: 2px solid black;
-  margin-left: 110px;
-  width: 25vw;
-  border-radius: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-bottom: 6px solid black;
 }
