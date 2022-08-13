@@ -10,8 +10,8 @@ const ProjectImageBar = () => {
         <img src={image1} alt='Project1' className={style.projectImage} />
 
         <div className={style.projectText}>
-          <span className={style.header1}>SHOULDA COULDA</span>
-          <p className={style.text1}>
+          <span className={style.header}>SHOULDA COULDA</span>
+          <p className={style.text}>
             Shoulda Coulda is an app that helps users be more financial aware of
             their spending habits
           </p>
@@ -19,7 +19,13 @@ const ProjectImageBar = () => {
       </div>
       <div className={style.containerTwo}>
         <img src={image2} alt='Project2' className={style.projectImage} />
-        <div className={style.projectText}>Hello</div>
+        <div className={style.projectText}>
+          <span className={style.header}>ANIME GEN</span>
+          <p className={style.text}>
+            Anime Gen is an app that will generate an anime/show from the user
+            created list
+          </p>
+        </div>
       </div>
     </>
   );
