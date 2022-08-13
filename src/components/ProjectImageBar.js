@@ -8,7 +8,10 @@ const ProjectImageBar = () => {
       <div className={style.containerOne}>
         <img src={image} alt='Project1' className={style.projectOneImage} />
 
-        <div className={style.projectOneText}>Hello</div>
+        <div className={style.projectOneText}>
+          <span className={style.header1}>Project</span>
+          <p>Hello</p>
+        </div>
       </div>
       <div className={style.containerTwo}>
         <div>Hello</div>

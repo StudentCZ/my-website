@@ -13,11 +13,11 @@
   border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
-
   border-bottom: 6px solid black;
 }
 
 .projectOneText {
+  position: relative;
   border: 2px solid black;
   margin-left: 50px;
   width: 51vw;
@@ -25,6 +25,15 @@
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 6px solid black;
+}
+
+.header1 {
+  position: absolute;
+  top: -25px;
+  margin-left: 25px;
+  background-color: white;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2rem;
 }
 
 .containerTwo {
