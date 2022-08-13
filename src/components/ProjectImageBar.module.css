@@ -1,7 +1,7 @@
 .containerOne {
   display: flex;
   flex-direction: row;
-  background-color: red;
+  /* background-color: red; */
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -14,6 +14,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 60px;
+  border-bottom: 6px solid black;
 }
 
 .projectOneText {
@@ -23,6 +24,7 @@
   border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-bottom: 6px solid black;
 }
 
 .containerTwo {
