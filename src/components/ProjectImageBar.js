@@ -9,8 +9,11 @@ const ProjectImageBar = () => {
         <img src={image} alt='Project1' className={style.projectOneImage} />
 
         <div className={style.projectOneText}>
-          <span className={style.header1}>Project</span>
-          <p>Hello</p>
+          <span className={style.header1}>SHOULDA COULDA</span>
+          <p className={style.text1}>
+            Shoulda Coulda is an app that helps users be more financial aware of
+            their spending habits
+          </p>
         </div>
       </div>
       <div className={style.containerTwo}>

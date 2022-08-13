@@ -36,6 +36,11 @@
   font-size: 2rem;
 }
 
+.text1 {
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
 .containerTwo {
   display: flex;
   flex-direction: row;
