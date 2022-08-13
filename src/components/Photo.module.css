@@ -36,3 +36,9 @@
   font-family: 'Bungee Shade', cursive;
   font-size: 40px;
 }
+
+.text {
+  color: white;
+  padding-left: 25px;
+  padding-top: 40px;
+}
