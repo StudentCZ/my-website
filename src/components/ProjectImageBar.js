@@ -6,7 +6,15 @@ import image2 from './../assets/images/P2.png';
 const ProjectImageBar = () => {
   return (
     <>
-      <div className={style.textLink}>Read More --></div>
+      <div className={style.textLink}>
+        <a
+          href='https://shouldacoulda.herokuapp.com/'
+          rel='noreferrer'
+          target='_blank'
+        >
+          Read More -->
+        </a>
+      </div>
       <div className={style.containerOne}>
         <img src={image1} alt='Project1' className={style.projectImage} />
 
@@ -19,7 +27,15 @@ const ProjectImageBar = () => {
         </div>
       </div>
 
-      <div className={style.textLink2}>Read More --></div>
+      <div className={style.textLink2}>
+        <a
+          href='https://animegenx.herokuapp.com/'
+          rel='noreferrer'
+          target='_blank'
+        >
+          Read More -->
+        </a>
+      </div>
       <div className={style.containerTwo}>
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
