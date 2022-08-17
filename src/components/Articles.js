@@ -30,12 +30,17 @@ const Articles = () => {
         </p>
       </div>
       <div className={style.borderBox}>
-        <h2 className={style.borderBoxHeader}>TITLE</h2>
+        <h2 className={style.borderBoxHeader}>
+          What To Look For If You Want To Attend A Coding Bootcamp
+        </h2>
         <p className={style.borderBoxText}> Hello Random Text </p>
       </div>
 
       <div className={style.borderBox}>
-        <h2 className={style.borderBoxHeader}>TITLE</h2>
+        <h2 className={style.borderBoxHeader}>
+          What To Expect If You Just Graduate Coding Bootcamp Coming From A
+          Non-Technical Background
+        </h2>
         <p className={style.borderBoxText}> Hello Random Text </p>
       </div>
     </div>
