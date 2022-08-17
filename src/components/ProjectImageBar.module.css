@@ -46,16 +46,18 @@
 }
 
 .textLink {
+  z-index: 1;
   margin-top: 100px;
   text-align: end;
-  padding-right: 120px;
+  padding-right: 10vw;
   color: lightgreen;
   font-weight: bold;
 }
 
 .textLink2 {
+  z-index: 1;
   text-align: end;
-  padding-right: 120px;
+  padding-right: 10vw;
   color: lightgreen;
   font-weight: bold;
 }
