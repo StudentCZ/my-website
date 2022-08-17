@@ -10,9 +10,11 @@ import logo7 from '../assets/images/HTML.jpg';
 
 const Project = () => {
   return (
-    <div className={style.project_div} id='project'>
+    <div className={style.project_div}>
       <div>
-        <h1 className={style.projectText}>SKILLS AND PROJECT</h1>
+        <h1 className={style.projectText} id='project'>
+          SKILLS AND PROJECT
+        </h1>
         <div className={style.logoBar}>
           <img src={logo} width='100' alt='react logo' className={style.logo} />
           <img
