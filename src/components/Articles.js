@@ -19,7 +19,10 @@ const Articles = () => {
         </div>
       </div>
       <div className={style.borderBox}>
-        <h2 className={style.borderBoxHeader}>TITLE</h2>
+        <h2 className={style.borderBoxHeader}>
+          5 Things I Would Have Done Differently If I Had To Do The Bootcamp
+          Again.
+        </h2>
         <p className={style.borderBoxText}>
           Hello Random Text Hello Random TextHello Random Text Hello Random Text
           Hello Random TextHello Random TextHello Random Text Hello Random
