@@ -16,9 +16,7 @@
 }
 
 .projectText {
-  margin-top: 50px;
-  margin-bottom: 50px;
   font-family: 'Bungee Shade', cursive;
   font-size: 50px;
-  padding-left: 125px;
+  padding: 60px 50px 50px 125px;
 }
