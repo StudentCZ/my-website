@@ -6,24 +6,22 @@ const NavBar = () => {
   return (
     <div className={style.div}>
       <li className={style.li}>
-        <Link smooth to='/'>
-          ABOUT
-        </Link>
+        <a className={style.link}>ABOUT</a>
       </li>
       <li className={style.li}>
-        <Link className={style.link} to='/project'>
+        <a className={style.link} href='#project'>
           PROJECTS
-        </Link>
+        </a>
       </li>
       <li className={style.li}>
-        <Link className={style.link} to='/about'>
+        <a className={style.link} to='/about'>
           WRITING
-        </Link>
+        </a>
       </li>
       <li className={style.li}>
-        <Link className={style.link} to='/contact'>
+        <a className={style.link} to='/contact'>
           CONTACT
-        </Link>
+        </a>
       </li>
     </div>
   );

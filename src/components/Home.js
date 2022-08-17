@@ -5,10 +5,12 @@ import ProjectImageBar from './ProjectImageBar';
 import ProjectSkillBar from './ProjectSkillBar';
 import Articles from './Articles';
 import Contact from './Contact';
+import NavBar from './NavBar';
 
 const Home = () => {
   return (
     <div>
+      <NavBar />
       <Photo />
       <Project />
       <ProjectSkillBar />

@@ -10,7 +10,7 @@ import logo7 from '../assets/images/HTML.jpg';
 
 const Project = () => {
   return (
-    <div className={style.project_div}>
+    <div className={style.project_div} id='project'>
       <div>
         <h1 className={style.projectText}>SKILLS AND PROJECT</h1>
         <div className={style.logoBar}>
