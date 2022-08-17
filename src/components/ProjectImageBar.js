@@ -6,6 +6,7 @@ import image2 from './../assets/images/P2.png';
 const ProjectImageBar = () => {
   return (
     <>
+      <div className={style.textLink}>Read More --></div>
       <div className={style.containerOne}>
         <img src={image1} alt='Project1' className={style.projectImage} />
 
