@@ -18,6 +18,8 @@ const ProjectImageBar = () => {
           </p>
         </div>
       </div>
+
+      <div className={style.textLink2}>Read More --></div>
       <div className={style.containerTwo}>
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
