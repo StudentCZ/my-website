@@ -5,7 +5,6 @@
 
 .container {
   display: flex;
-  overflow: hidden;
 }
 
 .image {
