@@ -1,12 +1,13 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import style from './NavBar.module.css';
 
 const NavBar = () => {
   return (
     <div className={style.div}>
       <li className={style.li}>
-        <a className={style.link}>ABOUT</a>
+        <a className={style.link} href='#about'>
+          ABOUT
+        </a>
       </li>
       <li className={style.li}>
         <a className={style.link} href='#project'>
@@ -14,12 +15,12 @@ const NavBar = () => {
         </a>
       </li>
       <li className={style.li}>
-        <a className={style.link} to='/about'>
+        <a className={style.link} href='#writing'>
           WRITING
         </a>
       </li>
       <li className={style.li}>
-        <a className={style.link} to='/contact'>
+        <a className={style.link} href='#contact'>
           CONTACT
         </a>
       </li>

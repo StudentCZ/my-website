@@ -3,7 +3,7 @@ import style from './Articles.module.css';
 
 const Articles = () => {
   return (
-    <div className={style.background}>
+    <div className={style.background} id='writing'>
       <div className={style.container}>
         <div className={style.title}>LATEST ARTICLES</div>
         <div className={style.textBox2}>

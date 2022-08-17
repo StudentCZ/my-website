@@ -4,7 +4,7 @@ import style from './Photo.module.css';
 
 const Photo = () => {
   return (
-    <div className={style.background}>
+    <div className={style.background} id='about'>
       <div className={style.container}>
         <img className={style.image} src={WorkPic} alt='myself' />
         <div className={style.textBox}>
