@@ -54,3 +54,8 @@ a {
   color: white;
   padding-right: 10px;
 }
+
+.textLink {
+  color: lightgreen;
+  font-weight: bold;
+}

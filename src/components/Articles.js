@@ -18,6 +18,7 @@ const Articles = () => {
           </h2>
         </div>
       </div>
+
       <div className={style.borderBox}>
         <h2 className={style.borderBoxHeader}>
           5 Things I Would Have Done Differently If I Had To Do The Bootcamp
@@ -26,14 +27,19 @@ const Articles = () => {
         <p className={style.borderBoxText}>
           If I had to redo the coding bootcamp again, i definitely would have
           done it differently. I listed 5 things that would of made my
-          experience even better if i had to do the bootcamp twice.
+          experience even better if i had to do the bootcamp a second time.
+          <a className={style.textLink}> Read More --></a>
         </p>
       </div>
       <div className={style.borderBox}>
         <h2 className={style.borderBoxHeader}>
           What To Look For If You Want To Attend A Coding Bootcamp
         </h2>
-        <p className={style.borderBoxText}> Hello Random Text </p>
+        <p className={style.borderBoxText}>
+          {' '}
+          Choosing a good coding bootcamp can be difficult. Here are some things
+          to look out for when you decide that you want to attend one.{' '}
+        </p>
       </div>
 
       <div className={style.borderBox}>
@@ -41,7 +47,12 @@ const Articles = () => {
           What To Expect If You Just Graduate Coding Bootcamp Coming From A
           Non-Technical Background
         </h2>
-        <p className={style.borderBoxText}> Hello Random Text </p>
+        <p className={style.borderBoxText}>
+          {' '}
+          Finding a job after graduating a coding bootcamp can be difficult.
+          Here is some realistic expectation of what to expect when you do
+          graduate from one{' '}
+        </p>
       </div>
     </div>
   );
