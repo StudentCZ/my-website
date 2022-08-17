@@ -24,9 +24,9 @@ const Articles = () => {
           Again.
         </h2>
         <p className={style.borderBoxText}>
-          Hello Random Text Hello Random TextHello Random Text Hello Random Text
-          Hello Random TextHello Random TextHello Random Text Hello Random
-          TextHello Random Text
+          If I had to redo the coding bootcamp again, i definitely would have
+          done it differently. I listed 5 things that would of made my
+          experience even better if i had to do the bootcamp twice.
         </p>
       </div>
       <div className={style.borderBox}>
