@@ -1,15 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import style from './NavBar.module.css';
-import About from './About';
 
 const NavBar = () => {
   return (
     <div className={style.div}>
       <li className={style.li}>
-        <a className={style.link} href={<About />}>
+        <Link smooth to='/'>
           ABOUT
-        </a>
+        </Link>
       </li>
       <li className={style.li}>
         <Link className={style.link} to='/project'>
