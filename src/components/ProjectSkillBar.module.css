@@ -11,26 +11,3 @@
 .skillContainer {
   display: flex;
 }
-
-.skillCol1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.skillCol2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.lineDiv {
-  margin-top: 100px;
-  display: block;
-}
-
-.line {
-  width: 50vw;
-  height: 2px;
-  background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-}
