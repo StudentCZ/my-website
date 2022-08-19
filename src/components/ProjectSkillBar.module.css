@@ -9,7 +9,7 @@
 }
 
 .skillContainer {
-  column-count: 2;
+  display: flex;
 }
 
 .skillCol1 {
