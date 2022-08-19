@@ -11,3 +11,7 @@
 .skillContainer {
   display: flex;
 }
+
+.skill {
+  padding-left: 100px;
+}
