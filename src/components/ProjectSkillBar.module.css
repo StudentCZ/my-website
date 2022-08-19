@@ -7,6 +7,8 @@
   margin-right: auto;
   border-radius: 25px;
   border-bottom: 6px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .skill {
@@ -14,7 +16,6 @@
 }
 
 .progress {
-  margin: 50px auto;
   padding: 2px;
   width: 100%;
   max-width: 500px;
