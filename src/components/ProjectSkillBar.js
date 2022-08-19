@@ -8,6 +8,9 @@ const ProjectSkillBar = () => {
         <div>
           <h2 className={style.skill}>Javascript</h2>
         </div>
+        <div className={style.progress}>
+          <div className={style.progressBar}>75%</div>
+        </div>
       </div>
     </>
   );

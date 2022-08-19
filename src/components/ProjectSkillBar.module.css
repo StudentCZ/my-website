@@ -12,3 +12,20 @@
 .skill {
   padding-left: 100px;
 }
+
+.progress {
+  margin: 50px auto;
+  padding: 2px;
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border: 3px solid #000;
+  border-radius: 20px;
+}
+
+.progressBar {
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  background-color: blue;
+}
