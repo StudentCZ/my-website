@@ -29,4 +29,9 @@
   width: 75%;
   border-radius: 15px;
   background-color: blue;
+  text-align: center;
+}
+
+.progressBarText {
+  color: white;
 }
