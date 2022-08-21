@@ -7,10 +7,10 @@ const ProjectSkillBar = () => {
       <div className={style.container}>
         <div>
           <h2 className={style.skill}>Javascript</h2>
-        </div>
-        <div className={style.progress}>
-          <div className={style.progressBar}>
-            <span className={style.progressBarText}>75%</span>
+          <div className={style.progress}>
+            <div className={style.progressBar}>
+              <span className={style.progressBarText}>75%</span>
+            </div>
           </div>
         </div>
       </div>
