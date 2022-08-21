@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
   width: 80vw;
   border: 2px solid black;
   margin-left: auto;
@@ -10,10 +10,11 @@
   border-bottom: 6px solid black;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .skill {
-  padding-left: 100px;
 }
 
 .progress {
