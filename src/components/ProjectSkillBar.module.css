@@ -1,5 +1,5 @@
 .container {
-  display: flex;
+  display: grid;
   flex-direction: row;
   width: 80vw;
   border: 2px solid black;
