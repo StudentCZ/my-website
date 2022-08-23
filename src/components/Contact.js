@@ -9,7 +9,7 @@ const Contact = () => {
           <span className={style.headingText}>CONTACTS</span>
         </div>
         <h3 className={style.text}>
-          You can email me at Czhou0k@gmai.com or find me on these social media
+          You can email me at Czhou0k@gmail.com or find me on these social media
         </h3>
         <div className={style.contactImagesBox}>
           <a
