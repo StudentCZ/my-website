@@ -2,6 +2,7 @@ import React from 'react';
 import style from './NavBar.module.css';
 
 const NavBar = () => {
+  //scroll when clicking nav links
   document.querySelectorAll('a[href^="#').forEach((anchor) => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();

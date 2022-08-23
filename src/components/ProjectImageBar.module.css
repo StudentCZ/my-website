@@ -32,6 +32,7 @@
   background-color: white;
   font-family: 'Bungee Shade', cursive;
   font-size: 2rem;
+  z-index: 0;
 }
 
 .text {
@@ -50,7 +51,7 @@
   z-index: 1;
   margin-top: 100px;
   text-align: end;
-  padding-right: 10vw;
+  padding-right: 12vw;
   color: lightgreen;
   font-weight: bold;
 }
@@ -59,7 +60,7 @@
   position: static;
   z-index: 1;
   text-align: end;
-  padding-right: 10vw;
+  padding-right: 12vw;
   color: lightgreen;
   font-weight: bold;
 }
