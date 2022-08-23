@@ -8,6 +8,7 @@ const ProjectImageBar = () => {
     <>
       <div className={style.textLink}>
         <a
+          className={style.readMore}
           href='https://shouldacoulda.herokuapp.com/'
           rel='noreferrer'
           target='_blank'
@@ -29,6 +30,7 @@ const ProjectImageBar = () => {
 
       <div className={style.textLink2}>
         <a
+          className={style.readMore}
           href='https://animegenx.herokuapp.com/'
           rel='noreferrer'
           target='_blank'

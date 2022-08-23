@@ -51,7 +51,6 @@
   z-index: 1;
   margin-top: 100px;
   text-align: end;
-  padding-right: 12vw;
   color: lightgreen;
   font-weight: bold;
 }
@@ -60,7 +59,12 @@
   position: static;
   z-index: 1;
   text-align: end;
-  padding-right: 12vw;
   color: lightgreen;
   font-weight: bold;
+}
+
+.readMore {
+  padding-right: 12vw;
+  position: relative;
+  z-index: 2;
 }
