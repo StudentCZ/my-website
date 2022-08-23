@@ -2,6 +2,15 @@ import React from 'react';
 import style from './NavBar.module.css';
 
 const NavBar = () => {
+  document.querySelectorAll('a[href^="#').forEach((anchor) => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth',
+      });
+    });
+  });
+
   return (
     <div className={style.div}>
       <li className={style.li}>
