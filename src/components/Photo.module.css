@@ -20,7 +20,7 @@
 .textBox {
   position: relative;
   border-radius: 25px;
-  border: 2px solid white;
+  border: 0.2vw solid white;
   margin-top: 150px;
   margin-right: 100px;
   margin-bottom: 100px;
