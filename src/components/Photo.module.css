@@ -24,7 +24,7 @@
   margin-top: 150px;
   margin-right: 100px;
   margin-bottom: 100px;
-  width: 100vw;
+  width: 100%;
 }
 
 .header {
@@ -32,9 +32,9 @@
   left: 25px;
   background-color: #3b3b36;
   color: lightgreen;
-  top: -30px;
+  top: -3vw;
   font-family: 'Bungee Shade', cursive;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .text {
@@ -44,8 +44,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .li {
+  /* .header {
     font-size: 15px;
     padding-right: 10px;
-  }
+  } */
 }
