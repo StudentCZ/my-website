@@ -9,6 +9,7 @@ const Articles = () => {
         <div className={style.textBox2}>
           <h2 className={style.text2}>
             <a
+              className={style.linkText}
               href='https://medium.com/@Chao.Zhou'
               rel='noreferrer'
               target='_blank'
