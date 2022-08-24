@@ -16,9 +16,10 @@
 
 .textBox2 {
   font-size: 30px;
-  padding-top: 70px;
+  padding-top: 80px;
   color: lightgreen;
   padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .text2 {
@@ -26,6 +27,8 @@
   border-radius: 25px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-right: 5vw;
+  width: 100%;
 }
 
 a {
@@ -58,4 +61,8 @@ a {
 .textLink {
   color: lightgreen;
   font-weight: bold;
+}
+
+.linkText {
+  font-size: 2vw;
 }
