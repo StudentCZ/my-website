@@ -74,4 +74,13 @@
   .readMore {
     font-size: 3vw;
   }
+  .textLink {
+    margin-top: 2vw;
+  }
+  .containerOne {
+    margin-bottom: 2vw;
+  }
+  .containerTwo {
+    margin-bottom: 3vw;
+  }
 }
