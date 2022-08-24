@@ -19,14 +19,14 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  top: -2.5em;
+  top: -4vw;
 }
 
 .headingText {
   position: relative;
   background-color: white;
   font-family: 'Bungee Shade', cursive;
-  font-size: 3em;
+  font-size: 5vw;
 }
 
 .text {
