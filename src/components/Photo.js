@@ -8,7 +8,7 @@ const Photo = () => {
       <div className={style.container}>
         <img className={style.image} src={WorkPic} alt='myself' />
         <div className={style.textBox}>
-          <span className={style.header}>HI, I'M CHAO</span>
+          <h1 className={style.header}>HI, I'M CHAO</h1>
           <p className={style.text}>
             I am a programmer from New York City, Having had experience working
             with a diverse population including people with special needs. I
