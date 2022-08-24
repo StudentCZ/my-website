@@ -38,7 +38,7 @@ a {
 .borderBox {
   width: 80vw;
   border: 2px solid white;
-  height: 40vh;
+  height: 50vh;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
@@ -50,14 +50,14 @@ a {
   padding-top: 10px;
   font-family: 'Bungee Shade', cursive;
   color: lightgreen;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .borderBoxText {
   padding-left: 30px;
   color: white;
   padding-right: 10px;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .textLink {
@@ -67,4 +67,16 @@ a {
 
 .linkText {
   font-size: 3vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .borderBoxHeader {
+    font-size: 3vw;
+  }
+  .borderBoxText {
+    font-size: 3vw;
+  }
+  .borderBox {
+    height: 40vh;
+  }
 }
