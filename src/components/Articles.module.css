@@ -50,12 +50,14 @@ a {
   padding-top: 10px;
   font-family: 'Bungee Shade', cursive;
   color: lightgreen;
+  font-size: 3vw;
 }
 
 .borderBoxText {
   padding-left: 30px;
   color: white;
   padding-right: 10px;
+  font-size: 3vw;
 }
 
 .textLink {
