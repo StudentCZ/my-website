@@ -23,7 +23,7 @@ const NavBar = () => {
           to='projects'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           className={style.link}
         >
@@ -35,7 +35,7 @@ const NavBar = () => {
           to='writing'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           className={style.link}
         >
