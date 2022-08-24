@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import style from './NavBar.module.css';
 
 //the function below smooth scrolls to link when clicking nav links
@@ -6,24 +7,52 @@ const NavBar = () => {
   return (
     <div className={style.div}>
       <li className={style.li}>
-        <a className={style.link} href='#about'>
+        <Link
+          to='about'
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={style.link}
+        >
           ABOUT
-        </a>
+        </Link>
       </li>
       <li className={style.li}>
-        <a className={style.link} href='#projects'>
+        <Link
+          to='projects'
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={style.link}
+        >
           PROJECTS
-        </a>
+        </Link>
       </li>
       <li className={style.li}>
-        <a className={style.link} href='#writing'>
+        <Link
+          to='writing'
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={style.link}
+        >
           WRITING
-        </a>
+        </Link>
       </li>
       <li className={style.li}>
-        <a className={style.link} href='#contact'>
+        <Link
+          to='contact'
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={style.link}
+        >
           CONTACT
-        </a>
+        </Link>
       </li>
     </div>
   );
