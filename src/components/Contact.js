@@ -30,7 +30,7 @@ const Contact = () => {
           >
             <img
               className={style.images}
-              src='https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png'
+              src='https://cdn-icons-png.flaticon.com/512/25/25231.png'
               alt='gitHub'
             />
           </a>
