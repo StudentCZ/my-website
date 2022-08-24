@@ -13,8 +13,9 @@ const Photo = () => {
             Having worked with a diverse population including people with
             special needs throughout my working career, learning how to work
             with others, communciate effectively, compassion, empathy, being
-            patient and learning from others. I believe these are important
-            skills that would help me as i break into the tech industry.
+            patient and learning from others. I believe that working in the tech
+            industry will allow me to have a positive and greater impact on more
+            people.
           </p>
         </div>
       </div>
