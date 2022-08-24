@@ -36,7 +36,8 @@
 }
 
 .text {
-  padding-left: 25px;
+  padding-left: 20px;
+  padding-right: 10px;
   padding-top: 1vw;
   font-size: 2vw;
 }

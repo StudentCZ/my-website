@@ -23,6 +23,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .logo {
+  .projectText {
+    padding: 10px;
+  }
+  .logoBar {
+    margin-bottom: 4vw;
   }
 }
