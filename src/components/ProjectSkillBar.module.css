@@ -16,7 +16,8 @@
 
 .skill {
   margin: 0px;
-  font-size: 3.5vw;
+  font-size: 2vw;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .progress {
