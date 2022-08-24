@@ -3,15 +3,6 @@ import style from './NavBar.module.css';
 
 //the function below smooth scrolls to link when clicking nav links
 const NavBar = () => {
-  document.querySelectorAll('a[href^="#').forEach((anchor) => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth',
-      });
-    });
-  });
-
   return (
     <div className={style.div}>
       <li className={style.li}>
