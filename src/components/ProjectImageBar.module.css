@@ -27,17 +27,17 @@
 
 .header {
   position: absolute;
-  top: -25px;
+  top: -3vw;
   margin-left: 25px;
   background-color: white;
   font-family: 'Bungee Shade', cursive;
-  font-size: 2rem;
+  font-size: 3vw;
   z-index: 0;
 }
 
 .text {
   padding-left: 25px;
-  padding-top: 25px;
+  padding-top: 1vw;
 }
 
 .containerTwo {
