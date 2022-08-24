@@ -5,7 +5,9 @@ const Articles = () => {
   return (
     <div className={style.background} id='writing'>
       <div className={style.container}>
-        <div className={style.title}>LATEST ARTICLES</div>
+        <div>
+          <h1 className={style.title}>LATEST ARTICLES</h1>
+        </div>
         <div className={style.textBox2}>
           <h2 className={style.text2}>
             <a
