@@ -10,12 +10,12 @@ const Photo = () => {
         <div className={style.textBox}>
           <span className={style.header}>HI, I'M CHAO</span>
           <p className={style.text}>
-            Having worked with a diverse population including people with
-            special needs throughout my working career, learning how to work
-            with others, communciate effectively, compassion, empathy, being
-            patient and learning from others. I believe that working in the tech
-            industry will allow me to have a positive and greater impact on more
-            people.
+            I am a programmer from New York City, Having had experience working
+            with a diverse population including people with special needs. I
+            have developed the skills needed to work well with others,
+            communicate effectively, be patient and empathetic, and be open to
+            others ideas and insights. As a result, working in the tech industry
+            will allow me to have a great and positive impact on many
           </p>
         </div>
       </div>
