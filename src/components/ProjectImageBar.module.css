@@ -46,7 +46,7 @@
 .containerTwo {
   display: flex;
   flex-direction: row;
-  margin-bottom: 100px;
+  margin-bottom: 10vw;
 }
 
 .textLink {
@@ -77,6 +77,10 @@
 @media only screen and (max-width: 600px) {
   .projectImage {
     margin-top: 0px;
+    margin-bottom: 5vw;
+  }
+  .projectText {
+    margin-bottom: 5vw;
   }
   .header {
     font-size: 3vw;
@@ -90,7 +94,7 @@
     margin-bottom: 0px;
   }
   .containerTwo {
-    margin-bottom: 0px;
+    margin-bottom: 5vw;
   }
   .projectText {
     margin-left: 2vw;
