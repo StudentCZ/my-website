@@ -70,6 +70,8 @@
   padding-right: 12vw;
   position: relative;
   z-index: 2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
 }
 
 @media only screen and (max-width: 600px) {
