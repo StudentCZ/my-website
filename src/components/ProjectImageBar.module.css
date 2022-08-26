@@ -89,6 +89,7 @@
   .readMore {
     font-size: 2vw;
     padding-right: 10vw;
+    bottom: -12px;
   }
   .containerOne {
     margin-bottom: 0px;
