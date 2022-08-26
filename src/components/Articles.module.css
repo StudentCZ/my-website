@@ -58,11 +58,13 @@ a {
   color: white;
   padding-right: 10px;
   font-size: 2vw;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .textLink {
   color: lightgreen;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .linkText {
