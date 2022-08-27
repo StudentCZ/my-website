@@ -11,8 +11,8 @@
 }
 
 .image {
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   border-radius: 100%;
   margin-left: 10vw;
   margin-top: 10vw;
@@ -22,11 +22,11 @@
 
 .textBox {
   position: relative;
-  border-radius: 25px;
+  border-radius: 5%;
   border: 0.2vw solid white;
-  margin-top: 150px;
-  margin-right: 100px;
-  margin-bottom: 100px;
+  margin-top: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 10vw;
   width: 100%;
 }
 
