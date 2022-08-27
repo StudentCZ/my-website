@@ -9,8 +9,8 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   z-index: 10;
 }
 
