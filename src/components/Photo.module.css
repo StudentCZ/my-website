@@ -5,6 +5,7 @@
 
 .container {
   display: flex;
+  text-align: center;
 }
 
 .image {
@@ -46,6 +47,20 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+
+  .image {
+    width: 75vw;
+    height: 75vw;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+
   .text {
     font-size: 2vw;
   }
@@ -53,10 +68,6 @@
     top: -4vw;
     left: 2vw;
     font-size: 3vw;
-  }
-  .image {
-    width: 50vw;
-    height: 50vw;
   }
   .textBox {
     margin-right: 10vw;
