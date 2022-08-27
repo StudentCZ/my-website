@@ -48,12 +48,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  /* .images {
-    width: 5em;
-    padding-left: 10px;
-    padding-right: 10px;
+  .headingText {
+    top: -1vw;
+    font-size: 8vw;
   }
-  .text {
-    font-size: 5vw;
-  } */
 }
