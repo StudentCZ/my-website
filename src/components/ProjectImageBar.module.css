@@ -75,7 +75,14 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .containerOne {
+    display: block;
+  }
+  .projectImage {
+    width: 75vw;
+  }
   .header {
-    top: -5vw;
+    top: -5.5vw;
+    font-size: 3vw;
   }
 }
