@@ -8,21 +8,21 @@
   border: 2px solid black;
   margin-left: 10vw;
   width: 25vw;
-  border-radius: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-bottom: 6px solid black;
+  border-radius: 25vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border-bottom: 0.6vw solid black;
 }
 
 .projectText {
   position: relative;
-  border: 2px solid black;
-  margin-left: 50px;
-  width: 51vw;
-  border-radius: 25px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-bottom: 6px solid black;
+  border: 0.2vw solid black;
+  margin-left: 5vw;
+  width: 50vw;
+  border-radius: 2.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  border-bottom: 0.6vw solid black;
   font-family: 'Open Sans', sans-serif;
 }
 
