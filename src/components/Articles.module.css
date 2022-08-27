@@ -91,6 +91,9 @@ a {
   .borderBoxText {
     font-size: 5vw;
   }
+  .textLinkBorder {
+    margin-bottom: 6vw;
+  }
   .textLink {
     font-size: 5vw;
   }
