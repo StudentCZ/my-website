@@ -42,7 +42,8 @@
 .text {
   color: white;
   padding-left: 2vw;
-  padding-top: 2vw;
+  padding-top: 3vw;
+  padding-right: 2vw;
   font-size: 2vw;
   font-family: 'Open Sans', sans-serif;
 }
