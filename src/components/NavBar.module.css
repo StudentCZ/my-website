@@ -15,14 +15,14 @@ body {
 }
 
 .li {
-  font-size: 30px;
+  font-size: 4vw;
   font-family: Pridi;
   list-style: none;
   display: inline;
-  padding-right: 50px;
+  padding-right: 5vw;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 .li :hover {
