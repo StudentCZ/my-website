@@ -58,6 +58,9 @@ a {
   font-family: 'Open Sans', sans-serif;
 }
 
+.textLinkBorder {
+  margin-bottom: 3vw;
+}
 .textLink {
   border: 2px solid green;
   color: lightgreen;
@@ -65,10 +68,7 @@ a {
   font-family: 'Open Sans', sans-serif;
   margin-left: 3vw;
   margin-bottom: -3vw;
-}
-
-.linkText {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 @media only screen and (max-width: 600px) {
