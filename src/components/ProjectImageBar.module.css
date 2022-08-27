@@ -1,6 +1,7 @@
 .containerOne {
   display: flex;
   flex-direction: row;
+  margin-top: 5vw;
   margin-bottom: 2vw;
 }
 
