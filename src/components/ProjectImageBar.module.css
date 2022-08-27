@@ -37,9 +37,9 @@
 }
 
 .text {
-  padding-left: 20px;
-  padding-right: 10px;
-  padding-top: 1vw;
+  padding-left: 3vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
   font-size: 2vw;
 }
 
@@ -52,7 +52,7 @@
 .textLink {
   position: static;
   z-index: 1;
-  margin-top: 100px;
+  margin-top: 5vw;
   text-align: end;
   color: lightgreen;
   font-weight: bold;
@@ -75,7 +75,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .projectImage {
+  /* .projectImage {
     margin-top: 0px;
     margin-bottom: 5vw;
   }
@@ -102,5 +102,5 @@
   }
   .textLink {
     margin-top: 0px;
-  }
+  } */
 }
