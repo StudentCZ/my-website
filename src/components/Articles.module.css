@@ -44,17 +44,17 @@ a {
 }
 
 .borderBoxHeader {
-  padding-left: 30px;
-  padding-top: 10px;
+  padding-left: 3vw;
+  padding-top: 1vw;
   font-family: 'Bungee Shade', cursive;
   color: lightgreen;
   font-size: 2.5vw;
 }
 
 .borderBoxText {
-  padding-left: 30px;
+  padding-left: 3vw;
   color: white;
-  padding-right: 10px;
+  padding-right: 3vw;
   font-size: 2vw;
   font-family: 'Open Sans', sans-serif;
 }
@@ -70,7 +70,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .borderBoxHeader {
+  /* .borderBoxHeader {
     font-size: 3vw;
   }
   .borderBoxText {
@@ -78,5 +78,5 @@ a {
   }
   .borderBox {
     height: 40vh;
-  }
+  } */
 }
