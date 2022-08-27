@@ -49,40 +49,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
-  /* .container {
-    display: block;
-  }
-
-  .image {
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-top: 25vw;
-    margin-right: auto;
-    margin-bottom: 0vw;
-  }
-
-  .textBox {
-    display: block;
-    position: relative;
-    border-radius: 5%;
-    border: 0.2vw solid white;
-    margin-top: 10vw;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    width: 80%;
-  }
-
-  .text {
-    font-size: 4.5vw;
-  }
+@media only screen and (max-width: 550px) {
   .header {
-    top: -7vw;
-    left: 5vw;
-    font-size: 6vw;
-  } */
+    top: -5.5vw;
+  }
 }
