@@ -91,4 +91,10 @@ a {
   .borderBoxText {
     font-size: 5vw;
   }
+  .textLink {
+    font-size: 5vw;
+  }
+  .arrow {
+    width: 5vw;
+  }
 }
