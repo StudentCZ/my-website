@@ -6,16 +6,6 @@ import image2 from './../assets/images/P2.png';
 const ProjectImageBar = () => {
   return (
     <>
-      <div className={style.textLink}>
-        <a
-          className={style.readMore}
-          href='https://shouldacoulda.herokuapp.com/'
-          rel='noreferrer'
-          target='_blank'
-        >
-          Go To Site ->
-        </a>
-      </div>
       <div className={style.containerOne}>
         <img src={image1} alt='Project1' className={style.projectImage} />
 
@@ -25,19 +15,19 @@ const ProjectImageBar = () => {
             Shoulda Coulda is an app that helps users be more financial aware of
             their spending habits
           </p>
+          <div className={style.textLink}>
+            <a
+              className={style.readMore}
+              href='https://shouldacoulda.herokuapp.com/'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Go To Site ->
+            </a>
+          </div>
         </div>
       </div>
 
-      <div className={style.textLink2}>
-        <a
-          className={style.readMore}
-          href='https://animegenx.herokuapp.com/'
-          rel='noreferrer'
-          target='_blank'
-        >
-          Go To Site ->
-        </a>
-      </div>
       <div className={style.containerTwo}>
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
@@ -46,6 +36,16 @@ const ProjectImageBar = () => {
             Anime Gen is an app that will generate an anime/show from the user
             created list
           </p>
+          <div className={style.textLink2}>
+            <a
+              className={style.readMore}
+              href='https://animegenx.herokuapp.com/'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Go To Site ->
+            </a>
+          </div>
         </div>
       </div>
     </>
