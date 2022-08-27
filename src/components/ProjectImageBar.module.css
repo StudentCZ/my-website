@@ -52,9 +52,11 @@
 .textLink {
   position: static;
   z-index: 1;
-  margin-top: 5vw;
+  margin-top: 2vw;
   color: lightgreen;
   font-weight: bold;
+  padding-left: 3vw;
+  padding-bottom: 2vw;
 }
 
 .textLink2 {
@@ -62,6 +64,8 @@
   z-index: 1;
   color: lightgreen;
   font-weight: bold;
+  padding-left: 3vw;
+  padding-bottom: 2vw;
 }
 
 .readMore {
