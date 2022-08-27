@@ -74,6 +74,10 @@ a {
   padding: 1vw 2vw 1vw 2vw;
 }
 
+.arrow {
+  width: 3vw;
+}
+
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 8vw;

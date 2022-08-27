@@ -38,7 +38,12 @@ const Articles = () => {
             target='_blank'
           >
             {' '}
-            Read More -->
+            Read More{' '}
+            <img
+              className={style.arrow}
+              src='https://img.icons8.com/stickers/100/000000/arrow.png'
+              alt='arrow'
+            />
           </a>
         </div>
       </div>
@@ -59,7 +64,12 @@ const Articles = () => {
             target='_blank'
           >
             {' '}
-            Read More -->
+            Read More{' '}
+            <img
+              className={style.arrow}
+              src='https://img.icons8.com/stickers/100/000000/arrow.png'
+              alt='arrow'
+            />
           </a>
         </div>
       </div>
@@ -83,7 +93,12 @@ const Articles = () => {
             target='_blank'
           >
             {' '}
-            Read More -->
+            Read More{' '}
+            <img
+              className={style.arrow}
+              src='https://img.icons8.com/stickers/100/000000/arrow.png'
+              alt='arrow'
+            />
           </a>
         </div>
       </div>
