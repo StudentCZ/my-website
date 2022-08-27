@@ -19,7 +19,7 @@
 .projectText {
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
-  padding: 60px 40px 40px 10vw;
+  padding: 5vw 5vw 5vw 10vw;
 }
 
 @media only screen and (max-width: 600px) {
