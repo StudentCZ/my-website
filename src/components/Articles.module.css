@@ -75,4 +75,10 @@ a {
   .text2 {
     font-size: 4vw;
   }
+  .borderBoxHeader {
+    font-size: 5vw;
+  }
+  .borderBoxText {
+    font-size: 4vw;
+  }
 }
