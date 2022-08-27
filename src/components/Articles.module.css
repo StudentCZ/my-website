@@ -1,6 +1,6 @@
 .background {
   background-color: #3b3b36;
-  padding-bottom: 25px;
+  padding-bottom: 2vw;
 }
 
 .container {
@@ -8,15 +8,14 @@
 }
 
 .title {
-  padding: 65px 50px 50px 10vw;
+  padding: 5vw 5vw 5vw 10vw;
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
   color: lightgreen;
 }
 
 .textBox2 {
-  font-size: 30px;
-  padding-top: 80px;
+  padding-top: 8vw;
   color: lightgreen;
   padding-left: 10vw;
   padding-right: 10vw;
