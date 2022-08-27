@@ -23,17 +23,10 @@
 }
 
 @media only screen and (max-width: 600px) {
-  /* .projectText {
-    padding: 10px;
-    margin-left: 10vw;
-  }
-  .logoBar {
-    margin-bottom: 5vw;
+  .projectText {
+    font-size: 8vw;
   }
   .logo {
-    width: 15vw;
+    width: 19.5vw;
   }
-  .projectText {
-    font-size: 6vw;
-  } */
 }
