@@ -1,18 +1,18 @@
 .contact {
-  margin-top: 100px;
+  margin-top: 10vw;
   text-decoration: none;
 }
 
 .contactBox {
   position: relative;
-  border: 2px solid black;
-  border-bottom: 6px solid black;
-  border-radius: 25px;
+  border: 0.2vw solid black;
+  border-bottom: 0.6vw solid black;
+  border-radius: 2.5vw;
   width: 85vw;
   margin-left: auto;
   margin-right: auto;
-  height: 50vh;
-  margin-bottom: 70px;
+  height: 20vh;
+  margin-bottom: 7vw;
 }
 
 .headingBox {
@@ -30,9 +30,9 @@
 }
 
 .text {
-  padding-top: 50px;
+  padding-top: 5vw;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 3vw;
   font-size: 2vw;
   font-family: 'Open Sans', sans-serif;
 }
@@ -42,18 +42,18 @@
 }
 
 .images {
-  width: 10rem;
-  padding-left: 25px;
-  padding-right: 25px;
+  width: 20vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
 }
 
 @media only screen and (max-width: 600px) {
-  .images {
+  /* .images {
     width: 5em;
     padding-left: 10px;
     padding-right: 10px;
   }
   .text {
     font-size: 5vw;
-  }
+  } */
 }
