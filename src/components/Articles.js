@@ -29,17 +29,16 @@ const Articles = () => {
           If I had to redo the coding bootcamp again, i definitely would have
           done it differently. I listed 5 things that would of made my
           experience even better if i had to do the bootcamp a second time.
-          <br />
-          <a
-            className={style.textLink}
-            href='https://medium.com/@Chao.Zhou/5-things-i-would-havedone-differently-if-i-had-to-do-the-bootcamp-again-4dfe3cb95e86'
-            rel='noreferrer'
-            target='_blank'
-          >
-            {' '}
-            Read More -->
-          </a>
         </p>
+        <a
+          className={style.textLink}
+          href='https://medium.com/@Chao.Zhou/5-things-i-would-havedone-differently-if-i-had-to-do-the-bootcamp-again-4dfe3cb95e86'
+          rel='noreferrer'
+          target='_blank'
+        >
+          {' '}
+          Read More -->
+        </a>
       </div>
       <div className={style.borderBox}>
         <h2 className={style.borderBoxHeader}>
@@ -48,17 +47,17 @@ const Articles = () => {
         <p className={style.borderBoxText}>
           {' '}
           Choosing a good coding bootcamp can be difficult. Here are some things
-          to look out for when you decide that you want to attend one. <br />
-          <a
-            className={style.textLink}
-            href='https://medium.com/@Chao.Zhou/what-to-look-for-if-you-want-to-attend-a-coding-bootcamp-d00faabda2a8'
-            rel='noreferrer'
-            target='_blank'
-          >
-            {' '}
-            Read More -->
-          </a>
+          to look out for when you decide that you want to attend one.
         </p>
+        <a
+          className={style.textLink}
+          href='https://medium.com/@Chao.Zhou/what-to-look-for-if-you-want-to-attend-a-coding-bootcamp-d00faabda2a8'
+          rel='noreferrer'
+          target='_blank'
+        >
+          {' '}
+          Read More -->
+        </a>
       </div>
 
       <div className={style.borderBox}>
@@ -70,17 +69,17 @@ const Articles = () => {
           {' '}
           Finding a job after graduating a coding bootcamp can be difficult.
           Here is some realistic expectation of what to expect when you do
-          graduate from one. <br />
-          <a
-            className={style.textLink}
-            href='https://medium.com/@Chao.Zhou/what-to-expect-if-you-just-graduate-coding-bootcamp-coming-from-a-non-technical-background-1aea8b8ebe88'
-            rel='noreferrer'
-            target='_blank'
-          >
-            {' '}
-            Read More -->
-          </a>
+          graduate from one.
         </p>
+        <a
+          className={style.textLink}
+          href='https://medium.com/@Chao.Zhou/what-to-expect-if-you-just-graduate-coding-bootcamp-coming-from-a-non-technical-background-1aea8b8ebe88'
+          rel='noreferrer'
+          target='_blank'
+        >
+          {' '}
+          Read More -->
+        </a>
       </div>
     </div>
   );

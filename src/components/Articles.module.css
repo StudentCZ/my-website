@@ -59,9 +59,12 @@ a {
 }
 
 .textLink {
+  border: 2px solid green;
   color: lightgreen;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+  margin-left: 3vw;
+  margin-bottom: -3vw;
 }
 
 .linkText {
