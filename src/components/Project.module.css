@@ -23,7 +23,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .projectText {
+  /* .projectText {
     padding: 10px;
     margin-left: 10vw;
   }
@@ -35,5 +35,5 @@
   }
   .projectText {
     font-size: 6vw;
-  }
+  } */
 }
