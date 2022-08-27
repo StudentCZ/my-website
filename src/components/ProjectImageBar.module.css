@@ -74,7 +74,7 @@
   font-size: 2vw;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .containerOne {
     display: block;
   }
@@ -92,8 +92,8 @@
     width: 75vw;
   }
   .header {
-    top: -7vw;
-    font-size: 5.5vw;
+    top: -7.5vw;
+    font-size: 6vw;
   }
   .text {
     font-size: 5vw;
