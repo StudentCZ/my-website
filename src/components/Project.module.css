@@ -30,4 +30,7 @@
   .logoBar {
     margin-bottom: 5vw;
   }
+  .logo {
+    width: 15vw;
+  }
 }
