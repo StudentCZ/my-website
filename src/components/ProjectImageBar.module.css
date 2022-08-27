@@ -78,6 +78,9 @@
   .containerOne {
     display: block;
   }
+  .containerTwo {
+    display: block;
+  }
   .projectImage {
     width: 75vw;
   }
