@@ -26,6 +26,7 @@
   border-radius: 2.5vw;
   padding-left: 2vw;
   padding-right: 2vw;
+  font-size: 4vw;
 }
 
 a {
@@ -70,5 +71,8 @@ a {
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 8vw;
+  }
+  .text2 {
+    font-size: 4vw;
   }
 }
