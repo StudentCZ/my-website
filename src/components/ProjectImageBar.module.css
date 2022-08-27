@@ -76,6 +76,10 @@
   font-size: 2vw;
 }
 
+.arrow {
+  width: 3vw;
+}
+
 @media only screen and (max-width: 600px) {
   .containerOne {
     display: block;
