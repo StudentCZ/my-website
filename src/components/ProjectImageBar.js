@@ -13,7 +13,7 @@ const ProjectImageBar = () => {
           rel='noreferrer'
           target='_blank'
         >
-          Read More -->
+          Go To Site ->
         </a>
       </div>
       <div className={style.containerOne}>
@@ -35,7 +35,7 @@ const ProjectImageBar = () => {
           rel='noreferrer'
           target='_blank'
         >
-          Read More -->
+          Go To Site ->
         </a>
       </div>
       <div className={style.containerTwo}>
