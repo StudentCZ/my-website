@@ -52,4 +52,7 @@
     top: -1vw;
     font-size: 8vw;
   }
+  .text {
+    font-size: 5vw;
+  }
 }
