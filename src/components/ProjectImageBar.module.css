@@ -99,6 +99,7 @@
   }
   .projectImage {
     width: 75vw;
+    margin-top: 5vw;
   }
   .header {
     top: -7.5vw;
@@ -109,5 +110,11 @@
   }
   .readMore {
     font-size: 5vw;
+  }
+  .textLink {
+    margin-bottom: 4vw;
+  }
+  .textLink2 {
+    margin-bottom: 4vw;
   }
 }
