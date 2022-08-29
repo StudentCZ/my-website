@@ -11,7 +11,7 @@ import logo7 from '../assets/images/HTML.jpg';
 const Project = () => {
   return (
     <div className={style.project_div} id='projects'>
-      <h1 className={style.projectText}>SKILLS AND PROJECT</h1>
+      <h1 className={style.projectText}>SKILLS AND PROJECTS</h1>
       <div className={style.logoBar}>
         <img src={logo} width='100' alt='react logo' className={style.logo} />
         <img src={logo2} width='100' alt='redux logo' className={style.logo} />
