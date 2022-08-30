@@ -6,10 +6,10 @@ const Contact = () => {
     <div className={style.contact} id='contact'>
       <div className={style.contactBox}>
         <div className={style.headingBox}>
-          <span className={style.headingText}>CONTACTS</span>
+          <span className={style.headingText}>CONTACT ME</span>
         </div>
         <h3 className={style.text}>
-          You can email me at Czhou0k@gmail.com or find me on these social media
+          You can email me at Czhou0k@gmail.com or find me on social media
         </h3>
         <div className={style.contactImagesBox}>
           <a
