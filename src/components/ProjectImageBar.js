@@ -37,12 +37,9 @@ const ProjectImageBar = () => {
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
           <h2 className={style.header}>ANIME GEN</h2>
-          <p className={style.text}>
-            Anime Gen is an app that will generate an anime/show from the user
-            created list
-          </p>
+          <p className={style.text}>IN PROGRESS!</p>
           <div className={style.textLink2}>
-            <a
+            {/* <a
               className={style.readMore}
               href='https://animegenx.herokuapp.com/'
               rel='noreferrer'
@@ -54,7 +51,7 @@ const ProjectImageBar = () => {
                 src='https://img.icons8.com/stickers/100/000000/arrow.png'
                 alt='arrow'
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
