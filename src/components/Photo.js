@@ -10,7 +10,7 @@ const Photo = () => {
         <div className={style.textBox}>
           <h1 className={style.header}>HI, I'M CHAO</h1>
           <p className={style.text}>
-            I am a programmer from New York City. Having had experience working
+            I am a programmer from New York City. I had experience working
             with a diverse population including people with special needs. I
             have developed the skills needed to work well with others,
             communicate effectively, be patient and empathetic, and be open to
