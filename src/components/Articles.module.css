@@ -19,6 +19,7 @@
   color: lightgreen;
   padding-left: 10vw;
   padding-right: 10vw;
+  width: 40vw;
 }
 
 .text2 {
@@ -83,7 +84,10 @@ a {
     font-size: 8vw;
   }
   .text2 {
-    font-size: 4vw;
+    font-size: 6vw;
+  }
+  .textBox2 {
+    width: 90%;
   }
   .borderBoxHeader {
     font-size: 6vw;
