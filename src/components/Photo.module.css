@@ -11,22 +11,22 @@
 }
 
 .image {
-  width: 30vw;
-  height: 30vw;
+  width: 25vw;
+  height: auto;
+  object-fit: cover;
   margin-left: 10vw;
-  margin-top: 10vw;
+  margin-top: 5vw;
   margin-right: 10vw;
-  margin-bottom: 10vw;
+  margin-bottom: -2vw;
 }
 
 .textBox {
   position: relative;
   border-radius: 5vw;
   border: 0.2vw solid white;
-  margin-top: 10vw;
+  margin-top: 5vw;
   margin-right: 8vw;
-  margin-bottom: 10vw;
-  width: 100%;
+  margin-bottom: 5vw;
 }
 
 .header {
