@@ -1,7 +1,7 @@
 .logoBar {
   width: 80vw;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 8vw;
   border: 0.2vw solid black;
   border-radius: 5vw;
   padding-top: 2vw;
@@ -19,7 +19,7 @@
 .projectText {
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
-  padding: 5vw 5vw 5vw 10vw;
+  padding: 5vw 5vw 5vw 12vw;
 }
 
 @media only screen and (max-width: 600px) {
