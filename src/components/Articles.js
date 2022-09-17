@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Articles.module.css';
+import arrow from './../assets/images/arrow.svg';
 
 const Articles = () => {
   return (
@@ -44,12 +45,7 @@ const Articles = () => {
             target='_blank'
           >
             {' '}
-            Read More{' '}
-            <img
-              className={style.arrow}
-              src='https://img.icons8.com/stickers/100/000000/arrow.png'
-              alt='arrow'
-            />
+            Read More <img className={style.arrow} src={arrow} alt='arrow' />
           </a>
         </div>
       </div>
@@ -76,12 +72,7 @@ const Articles = () => {
             target='_blank'
           >
             {' '}
-            Read More{' '}
-            <img
-              className={style.arrow}
-              src='https://img.icons8.com/stickers/100/000000/arrow.png'
-              alt='arrow'
-            />
+            Read More <img className={style.arrow} src={arrow} alt='arrow' />
           </a>
         </div>
       </div>
@@ -111,12 +102,7 @@ const Articles = () => {
             target='_blank'
           >
             {' '}
-            Read More{' '}
-            <img
-              className={style.arrow}
-              src='https://img.icons8.com/stickers/100/000000/arrow.png'
-              alt='arrow'
-            />
+            Read More <img className={style.arrow} src={arrow} alt='arrow' />
           </a>
         </div>
       </div>
