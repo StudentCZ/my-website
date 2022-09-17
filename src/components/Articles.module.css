@@ -8,7 +8,7 @@
 }
 
 .title {
-  padding: 5vw 5vw 5vw 10vw;
+  padding: 5vw 5vw 5vw 12vw;
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
   color: #f8be49;
@@ -38,7 +38,7 @@ a {
   width: 80vw;
   border: 0.2vw solid white;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 8vw;
   border-radius: 2.5vw;
   margin-bottom: 5vw;
 }
