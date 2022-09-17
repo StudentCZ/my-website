@@ -11,19 +11,19 @@
   padding: 5vw 5vw 5vw 10vw;
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
-  color: lightgreen;
+  color: #f8be49;
 }
 
 .textBox2 {
   padding-top: 8vw;
-  color: lightgreen;
+  color: #f8be49;
   padding-left: 10vw;
   padding-right: 10vw;
   width: 40vw;
 }
 
 .text2 {
-  border: 0.2vw solid lightgreen;
+  border: 0.2vw solid #f8be49;
   border-radius: 2.5vw;
   padding-left: 2vw;
   padding-right: 2vw;
@@ -47,7 +47,7 @@ a {
   padding-left: 3vw;
   padding-top: 1vw;
   font-family: 'Bungee Shade', cursive;
-  color: lightgreen;
+  color: #f8be49;
   font-size: 2.5vw;
 }
 
@@ -64,9 +64,9 @@ a {
   margin-top: 3vw;
 }
 .textLink {
-  border: 0.2vw solid lightgreen;
+  border: 0.2vw solid #f8be49;
   border-radius: 5vw;
-  color: lightgreen;
+  color: #f8be49;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   margin-left: 3vw;

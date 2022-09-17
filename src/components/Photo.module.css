@@ -13,7 +13,6 @@
 .image {
   width: 30vw;
   height: 30vw;
-  border-radius: 100%;
   margin-left: 10vw;
   margin-top: 10vw;
   margin-right: 10vw;
@@ -34,7 +33,7 @@
   position: absolute;
   left: 2vw;
   background-color: #535961;
-  color: lightgreen;
+  color: #f8be49;
   top: -5vw;
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
