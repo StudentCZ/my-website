@@ -1,5 +1,5 @@
 .background {
-  background-color: #3b3b36;
+  background-color: #535961;
   width: 100%;
   padding-bottom: 2vw;
 }
@@ -33,7 +33,7 @@
 .header {
   position: absolute;
   left: 2vw;
-  background-color: #3b3b36;
+  background-color: #535961;
   color: lightgreen;
   top: -5vw;
   font-family: 'Bungee Shade', cursive;
