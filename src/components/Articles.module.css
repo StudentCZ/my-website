@@ -88,7 +88,8 @@ a {
     margin-right: 30vw;
   }
   .textBox2 {
-    width: 90%;
+    width: 80%;
+    padding-left: 0;
   }
   .borderBoxHeader {
     font-size: 6vw;
