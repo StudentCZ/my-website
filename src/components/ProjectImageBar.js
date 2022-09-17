@@ -2,6 +2,7 @@ import React from 'react';
 import style from './ProjectImageBar.module.css';
 import image1 from './../assets/images/P1.png';
 import image2 from './../assets/images/P2.png';
+import arrow from './../assets/images/arrow.svg';
 
 const ProjectImageBar = () => {
   return (
@@ -22,12 +23,7 @@ const ProjectImageBar = () => {
               rel='noreferrer'
               target='_blank'
             >
-              Go To Site{' '}
-              <img
-                className={style.arrow}
-                src='https://img.icons8.com/stickers/100/000000/arrow.png'
-                alt='arrow'
-              />
+              Go To Site <img className={style.arrow} src={arrow} alt='arrow' />
             </a>
           </div>
         </div>
