@@ -1,25 +1,23 @@
 .background {
   background-color: #535961;
-  padding-bottom: 2vw;
+  padding: 3vw 0vw 2vw 0vw;
+  align-items: center;
 }
 
 .container {
   display: flex;
+  margin-left: 10vw;
+  margin-bottom: 3vw;
 }
 
 .title {
-  padding: 5vw 5vw 5vw 12vw;
   font-family: 'Bungee Shade', cursive;
   font-size: 5vw;
   color: #f8be49;
 }
 
 .textBox2 {
-  padding-top: 8vw;
   color: #f8be49;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  width: 40vw;
 }
 
 .text2 {
@@ -37,10 +35,11 @@ a {
 .borderBox {
   width: 80vw;
   border: 0.2vw solid white;
-  margin-left: auto;
-  margin-right: 8vw;
   border-radius: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5vw;
+  align-items: center;
 }
 
 .borderBoxHeader {
@@ -62,6 +61,7 @@ a {
 .textLinkBorder {
   margin-bottom: 3vw;
   margin-top: 3vw;
+  margin-left: 3vw;
 }
 .textLink {
   border: 0.2vw solid #f8be49;
@@ -69,7 +69,7 @@ a {
   color: #f8be49;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 3vw;
+
   margin-bottom: -3vw;
   font-size: 2vw;
   padding: 1vw 2vw 1vw 2vw;
