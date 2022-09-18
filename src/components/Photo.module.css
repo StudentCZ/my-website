@@ -1,23 +1,18 @@
 .background {
   background-color: #535961;
   width: 100%;
-  padding-bottom: 2vw;
 }
 
 .container {
   display: flex;
   text-align: center;
-  padding-top: 10vw;
+  padding: 10vw 2vw 0vw 4vw;
 }
 
 .image {
   width: 30vw;
   height: auto;
-
-  margin-left: 10vw;
-  margin-top: 5vw;
   margin-right: 2vw;
-  margin-bottom: -2vw;
 }
 
 .textBox {
