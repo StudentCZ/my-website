@@ -1,6 +1,8 @@
 .contact {
   margin-top: 10vw;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 .contactBox {
@@ -9,8 +11,6 @@
   border-bottom: 0.6vw solid black;
   border-radius: 2.5vw;
   width: 80vw;
-  margin-left: 12vw;
-  margin-right: auto;
   margin-bottom: 7vw;
   padding-bottom: 5vw;
 }
