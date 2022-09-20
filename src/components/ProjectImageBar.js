@@ -32,12 +32,12 @@ const ProjectImageBar = () => {
       <div className={style.containerTwo}>
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
-          <h2 className={style.header}>ANIME GEN</h2>
-          <p className={style.text}>IN PROGRESS!</p>
+          <h2 className={style.header}>ANIMEGO</h2>
+          <p className={style.text}>An anime search database</p>
           <div className={style.textLink2}>
-            {/* <a
+            <a
               className={style.readMore}
-              href='https://animegenx.herokuapp.com/'
+              href='https://animego1.netlify.app/'
               rel='noreferrer'
               target='_blank'
             >
@@ -47,7 +47,7 @@ const ProjectImageBar = () => {
                 src='https://img.icons8.com/stickers/100/000000/arrow.png'
                 alt='arrow'
               />
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
