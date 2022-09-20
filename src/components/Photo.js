@@ -6,7 +6,9 @@ const Photo = () => {
   return (
     <div className={style.background} id='about'>
       <div className={style.container}>
-        <img className={style.image} src={WorkPic} alt='myself' />
+        <div>
+          <img className={style.image} src={WorkPic} alt='myself' />
+        </div>
         <div className={style.textBox}>
           <h1 className={style.header}>HI, I'M CHAO</h1>
           <p className={style.text}>
