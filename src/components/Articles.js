@@ -33,9 +33,9 @@ const Articles = () => {
           </h2>
         </a>
         <p className={style.borderBoxText}>
-          If I had to redo the coding bootcamp again, i definitely would have
+          If I had to redo the coding bootcamp again, I definitely would have
           done it differently. I listed 5 things that would of made my
-          experience even better if i had to do the bootcamp a second time.
+          experience even better if I had to do the bootcamp a second time.
         </p>
         <div className={style.textLinkBorder}>
           <a
