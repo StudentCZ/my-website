@@ -34,8 +34,8 @@ const ProjectImageBar = () => {
         <div className={style.projectText}>
           <h2 className={style.header}>ANIMEGO</h2>
           <p className={style.text}>
-            Anime Go is an web app using Jikan Api database that let users look
-            up and learn about different kinds of anime.
+            Anime Go is a web app using Jikan Api database that let users look
+            up and learn about a variety of animes.
           </p>
           <div className={style.textLink2}>
             <a
