@@ -33,7 +33,10 @@ const ProjectImageBar = () => {
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
           <h2 className={style.header}>ANIMEGO</h2>
-          <p className={style.text}>An anime search database</p>
+          <p className={style.text}>
+            Anime Go is an web app database that let users look up and learn
+            about different kinds of anime.
+          </p>
           <div className={style.textLink2}>
             <a
               className={style.readMore}
