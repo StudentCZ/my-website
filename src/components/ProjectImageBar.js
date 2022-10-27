@@ -19,7 +19,7 @@ const ProjectImageBar = () => {
           <div className={style.textLink}>
             <a
               className={style.readMore}
-              href='https://shouldacoulda.herokuapp.com/'
+              href='https://shouldacoulda.fly.dev/'
               rel='noreferrer'
               target='_blank'
             >
