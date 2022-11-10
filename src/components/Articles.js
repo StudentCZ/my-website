@@ -32,8 +32,8 @@ const Articles = () => {
           </h2>
         </a>
         <p className={style.borderBoxText}>
-          Writing about my experience with Python after being exposed to it for
-          a few weeks. Documenting a few things that I noticed about Python and
+          Writing about my experience with Python after being learning it for a
+          few weeks. Documenting a few things that I noticed about Python and
           reason why you should learn it.
         </p>
         <div className={style.textLinkBorder}>
