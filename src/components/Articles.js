@@ -28,8 +28,7 @@ const Articles = () => {
           target='_blank'
         >
           <h2 className={style.borderBoxHeader}>
-            5 Things I Would Have Done Differently If I Had To Do The Bootcamp
-            Again.
+            What I Learned From Learning Python
           </h2>
         </a>
         <p className={style.borderBoxText}>
