@@ -39,7 +39,7 @@ const Articles = () => {
         <div className={style.textLinkBorder}>
           <a
             className={style.textLink}
-            href='https://medium.com/@Chao.Zhou/5-things-i-would-havedone-differently-if-i-had-to-do-the-bootcamp-again-4dfe3cb95e86'
+            href='https://medium.com/@Chao.Zhou/what-i-learned-from-learning-python-650c318e3bef'
             rel='noreferrer'
             target='_blank'
           >
