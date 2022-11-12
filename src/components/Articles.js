@@ -34,8 +34,10 @@ const Articles = () => {
         </a>
         <p className={style.borderBoxText}>
           {' '}
-          Choosing a good coding bootcamp can be difficult. Here are some things
-          to look out for when you decide that you want to attend one.
+          An alternative free hosting website that you can use instead of
+          Heroku. My experience with Fly.io and how seamless switching from
+          Heroku to Fly was. It was very straightforward and took at most 15
+          minutes.
         </p>
         <div className={style.textLinkBorder}>
           <a
