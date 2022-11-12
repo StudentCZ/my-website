@@ -23,6 +23,34 @@ const Articles = () => {
 
       <div className={style.borderBox}>
         <a
+          href='https://medium.com/@Chao.Zhou/if-you-use-heroku-free-tier-to-host-your-apps-think-about-switching-over-to-fly-io-51c83d925486'
+          rel='noreferrer'
+          target='_blank'
+        >
+          <h2 className={style.borderBoxHeader}>
+            What To Look For If You Want To Attend A Coding Bootcamp
+          </h2>
+        </a>
+        <p className={style.borderBoxText}>
+          {' '}
+          Choosing a good coding bootcamp can be difficult. Here are some things
+          to look out for when you decide that you want to attend one.
+        </p>
+        <div className={style.textLinkBorder}>
+          <a
+            className={style.textLink}
+            href='https://medium.com/@Chao.Zhou/if-you-use-heroku-free-tier-to-host-your-apps-think-about-switching-over-to-fly-io-51c83d925486'
+            rel='noreferrer'
+            target='_blank'
+          >
+            {' '}
+            Read More <img className={style.arrow} src={arrow} alt='arrow' />
+          </a>
+        </div>
+      </div>
+
+      <div className={style.borderBox}>
+        <a
           href='https://medium.com/@Chao.Zhou/what-i-learned-from-learning-python-650c318e3bef'
           rel='noreferrer'
           target='_blank'
@@ -40,33 +68,6 @@ const Articles = () => {
           <a
             className={style.textLink}
             href='https://medium.com/@Chao.Zhou/what-i-learned-from-learning-python-650c318e3bef'
-            rel='noreferrer'
-            target='_blank'
-          >
-            {' '}
-            Read More <img className={style.arrow} src={arrow} alt='arrow' />
-          </a>
-        </div>
-      </div>
-      <div className={style.borderBox}>
-        <a
-          href='https://medium.com/@Chao.Zhou/what-to-look-for-if-you-want-to-attend-a-coding-bootcamp-d00faabda2a8'
-          rel='noreferrer'
-          target='_blank'
-        >
-          <h2 className={style.borderBoxHeader}>
-            What To Look For If You Want To Attend A Coding Bootcamp
-          </h2>
-        </a>
-        <p className={style.borderBoxText}>
-          {' '}
-          Choosing a good coding bootcamp can be difficult. Here are some things
-          to look out for when you decide that you want to attend one.
-        </p>
-        <div className={style.textLinkBorder}>
-          <a
-            className={style.textLink}
-            href='https://medium.com/@Chao.Zhou/what-to-look-for-if-you-want-to-attend-a-coding-bootcamp-d00faabda2a8'
             rel='noreferrer'
             target='_blank'
           >
