@@ -28,7 +28,8 @@ const Articles = () => {
           target='_blank'
         >
           <h2 className={style.borderBoxHeader}>
-            What To Look For If You Want To Attend A Coding Bootcamp
+            If You Use Heroku Free Tier To Host Your Apps, Think About Switching
+            Over To Fly.io
           </h2>
         </a>
         <p className={style.borderBoxText}>
