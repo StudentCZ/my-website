@@ -47,11 +47,11 @@ const NavBar = () => {
           to='resume'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={10}
           duration={500}
           className={style.link}
         >
-          Resume
+          RESUME
         </Link>
       </li>
       <li className={style.li}>
