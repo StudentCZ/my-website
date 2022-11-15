@@ -44,6 +44,18 @@ const NavBar = () => {
       </li>
       <li className={style.li}>
         <Link
+          to='resume'
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className={style.link}
+        >
+          Resume
+        </Link>
+      </li>
+      <li className={style.li}>
+        <Link
           to='contact'
           spy={true}
           smooth={true}
