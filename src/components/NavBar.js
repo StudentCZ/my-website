@@ -47,7 +47,7 @@ const NavBar = () => {
           to='resume'
           spy={true}
           smooth={true}
-          offset={10}
+          offset={-20}
           duration={500}
           className={style.link}
         >
