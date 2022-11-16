@@ -5,7 +5,7 @@ import ProjectImageBar from './ProjectImageBar';
 import Articles from './Articles';
 import Contact from './Contact';
 import NavBar from './NavBar';
-import Resume from './Resume';
+// import Resume from './Resume';
 
 const Home = () => {
   return (
