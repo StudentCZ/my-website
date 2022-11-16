@@ -6,6 +6,16 @@
   padding: 5vw 5vw 5vw 10vw;
 }
 
+.borderBox {
+  width: 80vw;
+  border: 0.2vw solid black;
+  border-radius: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vw;
+  align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
   .headingText {
     font-size: 8vw;
