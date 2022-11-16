@@ -5,3 +5,9 @@
   font-size: 5vw;
   padding: 5vw 5vw 5vw 10vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .headingText {
+    font-size: 8vw;
+  }
+}
