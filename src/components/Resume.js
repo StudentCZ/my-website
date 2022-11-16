@@ -7,7 +7,9 @@ const Resume = () => {
       <div>
         <h1 className={style.headingText}>RESUME</h1>
       </div>
-      <div className={style.borderBox}></div>
+      <div className={style.borderBox}>
+        <div>Resume</div>
+      </div>
     </div>
   );
 };

@@ -42,7 +42,7 @@ const NavBar = () => {
           WRITING
         </Link>
       </li>
-      <li className={style.li}>
+      {/* <li className={style.li}>
         <Link
           to='resume'
           spy={true}
@@ -53,7 +53,7 @@ const NavBar = () => {
         >
           RESUME
         </Link>
-      </li>
+      </li> */}
       <li className={style.li}>
         <Link
           to='contact'

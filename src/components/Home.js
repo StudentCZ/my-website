@@ -15,7 +15,7 @@ const Home = () => {
       <Project />
       <ProjectImageBar />
       <Articles />
-      <Resume />
+      {/* <Resume /> */}
       <Contact />
     </div>
   );
