@@ -8,7 +8,7 @@ const Resume = () => {
         <h1 className={style.headingText}>RESUME</h1>
       </div>
 
-      <div className={style.borderBox}>Resume</div>
+      <div className={style.borderBox}></div>
     </div>
   );
 };
