@@ -6,7 +6,7 @@ const Resume = () => {
     <div className={style.contact} id='resume'>
       <div className={style.contactBox}>
         <div className={style.headingBox}>
-          <span className={style.headingText}>CONTACT ME</span>
+          <span className={style.headingText}>RESUME</span>
         </div>
       </div>
     </div>
