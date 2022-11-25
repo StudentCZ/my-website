@@ -3,11 +3,11 @@ import style from './Resume.module.css';
 
 const Resume = () => {
   return (
-    <div className={style.background} id='resume'>
-      <div>
-        <h1 className={style.headingText}>RESUME</h1>
-
-        <div className={style.borderBox}></div>
+    <div className={style.contact} id='contact'>
+      <div className={style.contactBox}>
+        <div className={style.headingBox}>
+          <span className={style.headingText}>CONTACT ME</span>
+        </div>
       </div>
     </div>
   );
