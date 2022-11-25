@@ -7,14 +7,13 @@
 }
 
 .borderBox {
-  width: 80vw;
+  position: relative;
   border: 0.2vw solid black;
+  border-bottom: 0.6vw solid black;
   border-radius: 2.5vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5vw;
-  align-items: center;
-  height: 30vw;
+  width: 80vw;
+  margin-bottom: 7vw;
+  padding-bottom: 5vw;
 }
 
 @media only screen and (max-width: 600px) {
