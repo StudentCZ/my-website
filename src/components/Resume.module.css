@@ -1,3 +1,10 @@
+.contact {
+  margin-top: 10vw;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
 .borderBox {
   position: relative;
   border: 0.2vw solid black;
