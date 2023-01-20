@@ -31,6 +31,7 @@
 
 @media only screen and (max-width: 600px) {
   .headingText {
+    top: -1vw;
     font-size: 8vw;
   }
 }
