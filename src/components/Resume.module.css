@@ -23,8 +23,10 @@
 }
 
 .headingBox {
+  position: absolute;
   width: 100%;
   text-align: center;
+  top: -4vw;
 }
 
 @media only screen and (max-width: 600px) {
