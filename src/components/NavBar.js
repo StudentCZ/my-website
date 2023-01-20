@@ -11,7 +11,7 @@ const NavBar = () => {
           to='about'
           spy={true}
           smooth={true}
-          offset={50}
+          offset={20}
           duration={500}
           className={style.link}
         >
