@@ -11,7 +11,7 @@ const ProjectImageBar = () => {
         <img src={image1} alt='Project1' className={style.projectImage} />
 
         <div className={style.projectText}>
-          <h2 className={style.header}>SHOULDA COULDA</h2>
+          <h2 className={style.header}>QuizMi (In Progress)</h2>
           <p className={style.text}>
             Shoulda Coulda is an app that helps users be more financial aware of
             their spending habits
