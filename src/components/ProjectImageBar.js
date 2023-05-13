@@ -29,6 +29,28 @@ const ProjectImageBar = () => {
         </div>
       </div>
 
+      <div className={style.containerOne}>
+        <img src={image1} alt='Project1' className={style.projectImage} />
+
+        <div className={style.projectText}>
+          <h2 className={style.header}>SHOULDA COULDA</h2>
+          <p className={style.text}>
+            Shoulda Coulda is an app that helps users be more financial aware of
+            their spending habits
+          </p>
+          <div className={style.textLink}>
+            <a
+              className={style.readMore}
+              href='https://shouldacoulda.fly.dev/'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Go To Site <img className={style.arrow} src={arrow} alt='arrow' />
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className={style.containerTwo}>
         <img src={image2} alt='Project2' className={style.projectImage} />
         <div className={style.projectText}>
