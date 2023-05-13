@@ -2,6 +2,7 @@ import React from 'react';
 import style from './ProjectImageBar.module.css';
 import image1 from './../assets/images/P1.png';
 import image2 from './../assets/images/P2.png';
+import image3 from './../assets/images/P3.png';
 import arrow from './../assets/images/arrow.svg';
 
 const ProjectImageBar = () => {
