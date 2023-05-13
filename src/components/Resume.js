@@ -7,7 +7,7 @@ const Resume = () => {
       <div className={style.borderBox}>
         <div className={style.contactImagesBox}>
           <a
-            href='https://drive.google.com/file/d/1fTZoZogTlQbULYp4Ef_chynv8gRNLfCl/view?usp=sharing'
+            href='https://drive.google.com/file/d/1yrwQqQHKKeUzChWb8X-tpmwLaijKOmIm/view?usp=sharing'
             rel='noreferrer'
             target='_blank'
           >
