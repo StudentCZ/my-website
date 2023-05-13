@@ -9,7 +9,7 @@ const ProjectImageBar = () => {
   return (
     <>
       <div className={style.containerOne}>
-        <img src={image1} alt='Project1' className={style.projectImage} />
+        <img src={image3} alt='Project1' className={style.projectImage} />
 
         <div className={style.projectText}>
           <h2 className={style.header}>QuizMi</h2>
