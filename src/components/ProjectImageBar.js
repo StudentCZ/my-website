@@ -14,14 +14,14 @@ const ProjectImageBar = () => {
           <h2 className={style.header}>QuizMi</h2>
           <p className={style.text}>QuizMi (In Progress)</p>
           <div className={style.textLink}>
-            <a
+            {/* <a
               className={style.readMore}
               href='https://shouldacoulda.fly.dev/'
               rel='noreferrer'
               target='_blank'
             >
               Go To Site <img className={style.arrow} src={arrow} alt='arrow' />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
