@@ -12,7 +12,10 @@ const ProjectImageBar = () => {
 
         <div className={style.projectText}>
           <h2 className={style.header}>QuizMi</h2>
-          <p className={style.text}>QuizMi (In Progress)</p>
+          <p className={style.text}>
+            QuizMi (In Progress) a gamified quiz app to encourage people to
+            increase their general knowledge and interest for education.
+          </p>
           <div className={style.textLink}>
             {/* <a
               className={style.readMore}
